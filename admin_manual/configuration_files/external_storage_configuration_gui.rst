@@ -123,14 +123,7 @@ The following backends are provided by the external storages app.
 .. toctree::
     :maxdepth: 1
 
-    external_storage/amazons3
-    external_storage/ftp
-    external_storage/local
-    external_storage/nextcloud
-    external_storage/openstack
-    external_storage/sftp
-    external_storage/smb
-    external_storage/webdav
+    external_storage/index
 
 .. note:: A non-blocking or correctly configured SELinux setup is needed
    for these backends to work. Please refer to the :ref:`selinux-config-label`.

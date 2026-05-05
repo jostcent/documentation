@@ -73,7 +73,7 @@ Create a HaRP container with either ``--network host`` option or expose the port
 
 Go to AppAPI admin settings and register a ``HaRP Proxy (Host)`` daemon.
 
-.. image:: ./img/harp_host.png
+.. image:: ./images/harp_host.png
 
 Finally, test the whole setup with "Test deploy" in the 3-dots menu of the deploy daemon.
 
@@ -98,7 +98,7 @@ Create a HaRP container with ``--network <nextcloud_docker_network_name>`` optio
 
 Go to AppAPI admin settings and register a ``HaRP Proxy (Docker)`` daemon. Take note of the ``<nextcloud_docker_network_name>`` value in the ``Docker network`` field.
 
-.. image:: ./img/harp_docker.png
+.. image:: ./images/harp_docker.png
 
 Finally, test the whole setup with "Test deploy" in the 3-dots menu of the deploy daemon.
 
@@ -125,7 +125,7 @@ A setup with the HaRP container itself on the remote is not supported.
 
 2. Create a matching deploy daemon with ``Docker socket proxy port`` set to ``24001``.
 
-  .. image:: ./img/harp_remote_24001.png
+  .. image:: ./images/harp_remote_24001.png
 
 3. The FRP generated client certificates should be present in the ``certs`` folder locally. Copy the files ``client.crt``, ``client.key`` and ``ca.crt`` inside the ``certs`` folder to the remote host.
 4. Create a folder structure on the remote host: ``mkdir -p certs/frp`` and copy the files ``client.crt``, ``client.key`` and ``ca.crt`` to the ``certs/frp`` folder.
