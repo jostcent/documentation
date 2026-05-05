@@ -85,7 +85,7 @@ Docker Socket Proxy
 .. note::
 	For remote DSP setup, it should expose the ports on the host.
 
-.. image:: ./img/app_api_3.png
+.. image:: ./images/app_api_3.png
 
 Deployment configuration examples can be found :doc:`here <./DeployConfigurations>`.
 
@@ -95,7 +95,7 @@ Installing ExApps
 You can now install ExApps from the Nextcloud App Store by clicking "Install" on the respective app in the Apps page.
 If successful, the ExApp will be displayed under the "Your apps" list.
 
-.. image:: ./img/exapp_list_example.png
+.. image:: ./images/exapp_list_example.png
 
 FAQ
 ---

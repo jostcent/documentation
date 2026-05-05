@@ -5,7 +5,7 @@ Test Deploy Daemon
 
 You can test each Daemon configuration deployment from the AppAPI Admin settings.
 
-.. image:: ./img/test_deploy.png
+.. image:: ./images/test_deploy.png
 
 
 Status Checks
@@ -20,7 +20,7 @@ for each compute device, there is a separate Docker image.
     You can remove it after testing from the Apps page.
     The Docker images are also not removed from the Daemon; you can clean up unused images with the ``docker image prune`` command.
 
-.. image:: ./img/test_deploy_modal_4.png
+.. image:: ./images/test_deploy_modal_4.png
 
 
 Register
