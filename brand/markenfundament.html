@@ -1,0 +1,588 @@
+<title>SATOR Markenfundament</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<style>
+:root{
+  --ground:#E9EAEC;
+  --raise:#F5F6F7;
+  --sunk:#DFE1E4;
+  --ink:#191C21;
+  --ink-2:#5C636D;
+  --ink-3:#868D96;
+  --rule:#C6CACF;
+  --rule-soft:#D8DBDF;
+  --brass:#8A6D24;
+  --brass-soft:#B08D3F;
+  --vigil:#2E6F6B;
+  --mark-disc:#191C21;
+  --shadow:0 1px 0 rgba(25,28,33,.06);
+
+  --f-disp:"Spectral",Georgia,"Times New Roman",serif;
+  --f-body:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
+  --f-mono:"IBM Plex Mono","SF Mono",Consolas,monospace;
+
+  --s-1:12px; --s0:15px; --s1:19px; --s2:23px; --s3:29px; --s4:37px; --s5:46px;
+  --gut:clamp(20px,4vw,44px);
+  --maxw:1080px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#191C21;
+    --raise:#23272E;
+    --sunk:#14171B;
+    --ink:#E6E3DC;
+    --ink-2:#8D949E;
+    --ink-3:#6C737C;
+    --rule:#343A42;
+    --rule-soft:#2A2F36;
+    --brass:#B08D3F;
+    --brass-soft:#C9A75C;
+    --vigil:#4FA8A0;
+    --mark-disc:#E6E3DC;
+    --shadow:0 1px 0 rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#191C21;
+  --raise:#23272E;
+  --sunk:#14171B;
+  --ink:#E6E3DC;
+  --ink-2:#8D949E;
+  --ink-3:#6C737C;
+  --rule:#343A42;
+  --rule-soft:#2A2F36;
+  --brass:#B08D3F;
+  --brass-soft:#C9A75C;
+  --vigil:#4FA8A0;
+  --mark-disc:#E6E3DC;
+  --shadow:0 1px 0 rgba(0,0,0,.4);
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--ground);
+  color:var(--ink);
+  font-family:var(--f-body);
+  font-size:var(--s0);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gut)}
+
+/* ---- typography ---- */
+h1,h2,h3{font-family:var(--f-disp);font-weight:400;text-wrap:balance;margin:0}
+h2{font-size:var(--s3);line-height:1.15;letter-spacing:-.01em}
+h3{font-size:var(--s1);line-height:1.3}
+p{margin:0;max-width:64ch}
+a{color:var(--brass)}
+.lede{font-size:var(--s1);line-height:1.55;color:var(--ink-2);max-width:56ch}
+.mono{font-family:var(--f-mono);font-size:var(--s-1);letter-spacing:.06em;text-transform:uppercase}
+.tag{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+strong{font-weight:600}
+
+/* ---- section frame ---- */
+section{border-top:1px solid var(--rule);padding:clamp(38px,6vw,64px) 0}
+.sec-head{display:flex;gap:18px;align-items:baseline;margin-bottom:26px;flex-wrap:wrap}
+.sec-num{font-family:var(--f-mono);font-size:var(--s-1);color:var(--brass);letter-spacing:.1em;padding-top:4px}
+.stack{display:flex;flex-direction:column;gap:20px}
+.stack-s{display:flex;flex-direction:column;gap:10px}
+
+/* ---- masthead ---- */
+.mast{padding:clamp(40px,7vw,76px) 0 clamp(34px,5vw,54px)}
+.mast-top{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
+  font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);
+  border-bottom:1px solid var(--rule);padding-bottom:12px;margin-bottom:clamp(34px,5vw,54px)}
+.lockup{display:flex;align-items:center;gap:clamp(18px,3vw,30px);flex-wrap:wrap}
+.wordmark{font-family:var(--f-disp);font-weight:400;font-size:clamp(46px,10vw,86px);
+  letter-spacing:.18em;line-height:1;margin-right:-.18em}
+.posline{font-family:var(--f-disp);font-size:clamp(23px,3.4vw,37px);line-height:1.25;
+  margin-top:clamp(26px,4vw,38px);max-width:20ch;text-wrap:balance}
+.posline em{font-style:normal;color:var(--brass)}
+.claim{font-family:var(--f-mono);font-size:var(--s-1);letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-2);margin-top:16px}
+
+/* ---- the mark ---- */
+.mark{color:var(--brass);display:block}
+.mark .disc{fill:var(--mark-disc)}
+.sizes{display:flex;align-items:flex-end;gap:clamp(18px,4vw,40px);flex-wrap:wrap;
+  padding:26px;background:var(--raise);border:1px solid var(--rule-soft)}
+.size-item{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:10px}
+.size-item .tag{white-space:nowrap}
+
+/* ---- continuum scale ---- */
+.scale{margin:0;background:var(--raise);border:1px solid var(--rule-soft);padding:clamp(20px,3.5vw,32px)}
+.ruler{height:26px;position:relative;margin-bottom:22px;
+  background-image:
+    repeating-linear-gradient(90deg,var(--rule) 0 1px,transparent 1px 60px),
+    repeating-linear-gradient(90deg,var(--rule-soft) 0 1px,transparent 1px 12px);
+  background-size:100% 26px,100% 13px;
+  background-position:left top,left top;
+  background-repeat:repeat-x;
+  border-bottom:1px solid var(--ink-2)}
+.scale-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,3vw,32px)}
+.scale-col{display:flex;flex-direction:column;gap:8px;border-top:2px solid var(--brass);padding-top:12px}
+.scale-col:nth-child(2){border-top-color:var(--ink-2)}
+.scale-col h3{font-size:var(--s1)}
+.scale-col p{font-size:var(--s-1);color:var(--ink-2);line-height:1.55}
+.scale-instr{font-family:var(--f-mono);font-size:var(--s-1);color:var(--vigil);
+  font-variant-numeric:tabular-nums}
+.scale-span{margin-top:22px;border-top:1px solid var(--vigil);padding-top:10px;
+  display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+.scale-span .k{font-family:var(--f-mono);font-size:var(--s-1);letter-spacing:.14em;
+  text-transform:uppercase;color:var(--vigil)}
+.scale-span .v{font-size:var(--s-1);color:var(--ink-2)}
+
+/* ---- tables ---- */
+.tblwrap{overflow-x:auto;border:1px solid var(--rule-soft)}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:var(--s-1)}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+thead th{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3);background:var(--raise);border-bottom:1px solid var(--rule)}
+tbody tr:last-child td{border-bottom:0}
+td.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+tr.lead td{background:var(--raise)}
+tr.lead td:first-child{color:var(--brass);font-weight:600}
+
+/* ---- swatches ---- */
+.swatches{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:1px;
+  background:var(--rule-soft);border:1px solid var(--rule-soft)}
+.sw{background:var(--raise);padding:14px}
+.sw .chip{height:52px;border:1px solid rgba(128,128,128,.28);margin-bottom:10px}
+.sw .nm{font-size:var(--s-1);font-weight:500}
+.sw .hx{font-family:var(--f-mono);font-size:11px;color:var(--ink-3);text-transform:uppercase}
+
+/* ---- specimen ---- */
+.spec{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1px;
+  background:var(--rule-soft);border:1px solid var(--rule-soft)}
+.spec > div{background:var(--raise);padding:18px;display:flex;flex-direction:column;gap:8px}
+.spec .sample{font-size:var(--s2);line-height:1.2}
+.spec .s-disp{font-family:var(--f-disp)}
+.spec .s-body{font-family:var(--f-body)}
+.spec .s-mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums;font-size:var(--s1)}
+
+/* ---- architecture ---- */
+.arch{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1px;
+  background:var(--rule-soft);border:1px solid var(--rule-soft)}
+.arch-cell{background:var(--raise);padding:18px;display:flex;flex-direction:column;gap:8px}
+.arch-cell h3{font-size:var(--s0);font-family:var(--f-body);font-weight:600;letter-spacing:.02em}
+.arch-cell p{font-size:var(--s-1);color:var(--ink-2)}
+.state{font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  align-self:flex-start;padding:3px 7px;border:1px solid currentColor}
+.state.on{color:var(--vigil)}
+.state.off{color:var(--ink-3)}
+
+/* ---- phases ---- */
+.phases{display:flex;flex-direction:column;border:1px solid var(--rule-soft)}
+.ph{display:grid;grid-template-columns:52px 168px 1fr;gap:16px;padding:16px 18px;
+  border-bottom:1px solid var(--rule-soft);align-items:baseline;background:var(--raise)}
+.ph:last-child{border-bottom:0}
+.ph .p-n{font-family:var(--f-mono);font-size:var(--s-1);color:var(--brass)}
+.ph .p-d{font-family:var(--f-mono);font-size:var(--s-1);color:var(--ink-2);
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+.ph .p-t{font-size:var(--s-1)}
+.ph .p-t b{font-weight:600;font-size:var(--s0);display:block;margin-bottom:3px}
+@media (max-width:620px){.ph{grid-template-columns:44px 1fr}.ph .p-d{grid-column:2}.ph .p-t{grid-column:2}}
+
+/* ---- decisions ---- */
+.dec{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1px;
+  background:var(--rule-soft);border:1px solid var(--rule-soft)}
+.dec-cell{background:var(--raise);padding:18px;display:flex;flex-direction:column;gap:9px}
+.dec-cell .id{font-family:var(--f-mono);font-size:var(--s-1);color:var(--brass);letter-spacing:.08em}
+.dec-cell h3{font-size:var(--s0);font-family:var(--f-body);font-weight:600}
+.dec-cell p{font-size:var(--s-1);color:var(--ink-2)}
+.rec{font-size:var(--s-1);border-left:2px solid var(--brass);padding-left:11px;color:var(--ink)}
+.rec b{color:var(--brass);font-weight:600}
+.due{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;color:var(--ink-3);
+  text-transform:uppercase;margin-top:auto;padding-top:6px}
+
+/* ---- seal ---- */
+.seal{display:grid;grid-template-columns:repeat(5,1.9em);gap:0;justify-content:center;
+  border:2px solid var(--brass);padding:12px;background:var(--raise);
+  align-self:flex-start;width:max-content}
+.seal span{font-family:var(--f-mono);font-size:var(--s1);height:1.9em;
+  display:grid;place-items:center;color:var(--ink)}
+.seal span.hi{color:var(--brass);font-weight:500}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:clamp(20px,4vw,38px);align-items:start}
+
+/* ---- risk / callout ---- */
+.callout{border-left:3px solid var(--brass);padding:14px 0 14px 18px;background:transparent}
+.callout p{font-size:var(--s-1)}
+.callout .h{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--brass);margin-bottom:6px}
+
+footer{border-top:1px solid var(--rule);padding:28px 0 44px;color:var(--ink-3)}
+:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <clipPath id="frontHalf"><rect x="0" y="100" width="200" height="112"></rect></clipPath>
+    <symbol id="ring" viewBox="0 0 200 200">
+      <g transform="rotate(-22 100 100)">
+        <ellipse cx="100" cy="100" rx="78" ry="26" fill="none" stroke="currentColor" stroke-width="7"></ellipse>
+      </g>
+      <circle class="disc" cx="100" cy="100" r="42"></circle>
+      <g transform="rotate(-22 100 100)" clip-path="url(#frontHalf)">
+        <ellipse cx="100" cy="100" rx="78" ry="26" fill="none" stroke="currentColor" stroke-width="7"></ellipse>
+      </g>
+    </symbol>
+    <symbol id="ring-micro" viewBox="0 0 200 200">
+      <g transform="rotate(-22 100 100)">
+        <ellipse cx="100" cy="100" rx="68" ry="25" fill="none" stroke="currentColor" stroke-width="14"></ellipse>
+      </g>
+      <circle class="disc" cx="100" cy="100" r="40"></circle>
+      <g transform="rotate(-22 100 100)" clip-path="url(#frontHalf)">
+        <ellipse cx="100" cy="100" rx="68" ry="25" fill="none" stroke="currentColor" stroke-width="14"></ellipse>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="wrap">
+
+  <header class="mast">
+    <div class="mast-top">
+      <span>Markenfundament &middot; Entwurf v1</span>
+      <span>Gesundheitswesen Schweiz</span>
+      <span>06.09.2026</span>
+    </div>
+
+    <div class="lockup">
+      <svg class="mark" width="112" height="112" role="img" aria-label="Bildmarke: Scheibe mit geneigtem Ring"><use href="#ring"></use></svg>
+      <span class="wordmark">SATOR</span>
+    </div>
+
+    <p class="posline">Psychiatrie. Pflege. Intensiv. <em>Ein Kontinuum.</em></p>
+    <p class="claim">Wissen s&auml;en</p>
+  </header>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">01</span><h2>Die L&uuml;cke, die es wirklich gibt</h2></div>
+    <div class="two">
+      <div class="stack">
+        <p class="lede">Das Schweizer System trennt Psychiatriepflege und
+        Intensivpflege institutionell. Die Klinik tut das nicht.</p>
+        <p>Getrennte Bildungsg&auml;nge, getrennte Karrierepfade, getrennte
+        Fachkulturen &mdash; w&auml;hrend Delir auf der IPS, Suizidalit&auml;t im
+        Akutspital, Sedierungsmanagement, Entzug und das
+        Post-Intensive-Care-Syndrom permanent beide Kompetenzen verlangen.</p>
+        <p>Bestehende Angebote adressieren <strong>Einzelthemen</strong>, meist
+        Delirprogramme einzelner Universit&auml;tsspit&auml;ler. Niemand bildet die
+        <strong>Achse als Ganzes</strong> ab. Genau das ist die Position.</p>
+      </div>
+      <div class="callout">
+        <p class="h">Der Beleg, der die Marke tr&auml;gt</p>
+        <p>Beide Disziplinen messen kontinuierlich dieselbe Gr&ouml;sse:
+        Bewusstsein. Auf der Intensivstation als RASS, GCS und CAM&#8209;ICU.
+        In der Psychiatrie als Bewusstseinslage, Orientierung und
+        Realit&auml;tspr&uuml;fung.</p>
+        <p style="margin-top:10px">Aus einer Achse mit zwei Enden wird damit
+        ein geschlossener Ring &mdash; die Bildmarke ist keine Dekoration,
+        sondern das Argument.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">02</span><h2>Das Kompetenzkontinuum</h2></div>
+    <figure class="scale">
+      <div class="ruler" aria-hidden="true"></div>
+      <div class="scale-cols">
+        <div class="scale-col">
+          <h3>Psychiatrie</h3>
+          <p>Beziehung, Zeit, Deutung. Gef&auml;hrdungsbeurteilung, Zwangs&shy;mass&shy;nahmen und ihr Recht, Angeh&ouml;rigenarbeit.</p>
+          <p class="scale-instr">Bewusstseinslage &middot; Orientierung</p>
+        </div>
+        <div class="scale-col">
+          <h3>Pflege</h3>
+          <p>Das Bindegewebe der Achse. Beobachtung, Dokumentation, &Uuml;bergabe, Eskalation zum richtigen Zeitpunkt.</p>
+          <p class="scale-instr">Delir &middot; CAM&#8209;ICU &middot; Entzug</p>
+        </div>
+        <div class="scale-col">
+          <h3>Intensivpflege</h3>
+          <p>Technik, Sekunden, Zahlen. Sedierung, Beatmung, Monitoring, Nachsorge des Post&#8209;Intensive&#8209;Care&#8209;Syndroms.</p>
+          <p class="scale-instr">RASS &minus;5&hellip;+4 &middot; GCS 3&hellip;15</p>
+        </div>
+      </div>
+      <div class="scale-span">
+        <span class="k">Vigilanz</span>
+        <span class="v">Der eine Parameter, den beide Enden der Achse durchgehend messen. Der Angelpunkt des Modells &mdash; und der Ursprung des Zeichens.</span>
+      </div>
+    </figure>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">03</span><h2>Das Zeichen</h2></div>
+    <div class="stack">
+      <p class="lede">Eine Scheibe, gekreuzt von einem geneigten Ring. Der Kern
+      und das Kontinuum, das ihn umschliesst.</p>
+      <div class="sizes">
+        <div class="size-item">
+          <svg class="mark" width="128" height="128" role="img" aria-label="Bildmarke, 128 Pixel"><use href="#ring"></use></svg>
+          <span class="tag">128 px</span>
+        </div>
+        <div class="size-item">
+          <svg class="mark" width="64" height="64" role="img" aria-label="Bildmarke, 64 Pixel"><use href="#ring"></use></svg>
+          <span class="tag">64 px</span>
+        </div>
+        <div class="size-item">
+          <svg class="mark" width="32" height="32" role="img" aria-label="Bildmarke, Mikrovariante 32 Pixel"><use href="#ring-micro"></use></svg>
+          <span class="tag">32 px</span>
+        </div>
+        <div class="size-item">
+          <svg class="mark" width="16" height="16" role="img" aria-label="Bildmarke, Mikrovariante 16 Pixel"><use href="#ring-micro"></use></svg>
+          <span class="tag">16 px</span>
+        </div>
+        <div class="size-item" style="flex:1;min-width:200px;align-items:flex-start">
+          <p style="font-size:var(--s-1);color:var(--ink-2)">Ab 32&nbsp;px greift die
+          Mikrovariante: Strichst&auml;rke 14 statt 7, Ring-Halbachse 68 statt 78.
+          Ohne diese Umschaltung verschwindet der Ring im Favicon.</p>
+        </div>
+      </div>
+
+      <div class="two" style="margin-top:8px">
+        <div class="stack-s">
+          <h3>Warum es in Sekunden tr&auml;gt</h3>
+          <p style="font-size:var(--s-1)">Das Schweizer Gesundheitswesen ist voll
+          von Kreuzen, Herzen, H&auml;nden, Bl&auml;ttern und Pulslinien in Pastellblau.
+          Ein Ringk&ouml;rper ist dort unbesetzt. Auf 16&nbsp;px bleibt ein Punkt mit
+          einer Linie hindurch &mdash; und der ist aus jeder Distanz derselbe.
+          Die Form funktioniert einfarbig, gepr&auml;gt, gestickt und graviert.</p>
+        </div>
+        <div class="stack-s">
+          <h3>Das Siegel &mdash; nur auf Zertifikaten</h3>
+          <div class="seal" role="img" aria-label="SATOR-Quadrat, ein rotationssymmetrisches Palindrom">
+            <span class="hi">S</span><span class="hi">A</span><span class="hi">T</span><span class="hi">O</span><span class="hi">R</span>
+            <span>A</span><span>R</span><span>E</span><span>P</span><span>O</span>
+            <span>T</span><span>E</span><span>N</span><span>E</span><span>T</span>
+            <span>O</span><span>P</span><span>E</span><span>R</span><span>A</span>
+            <span>R</span><span>O</span><span>T</span><span>A</span><span>S</span>
+          </div>
+          <p style="font-size:var(--s-1);color:var(--ink-2)">Rotationssymmetrisches
+          Palindrom, belegt seit ca. 79&nbsp;n.&nbsp;Chr. in Pompeji. Ein Zeichen, das
+          2000 Jahre &uuml;berlebt hat und in vier Richtungen identisch liest.
+          Einsatz ausschliesslich auf Kurszertifikaten und Fachpublikationen &mdash;
+          nie auf Werbemitteln, sonst kippt es ins Esoterische.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">04</span><h2>Farbe und Schrift</h2></div>
+    <div class="stack">
+      <p class="lede">Der Grund ist ein Instrument, kein Prospekt.
+      Referenzraum ist die Intensivstation bei Nacht und das Archiv.</p>
+
+      <div class="swatches">
+        <div class="sw"><div class="chip" style="background:#191C21"></div><div class="nm">Blei</div><div class="hx">#191C21</div></div>
+        <div class="sw"><div class="chip" style="background:#23272E"></div><div class="nm">Schiefer</div><div class="hx">#23272E</div></div>
+        <div class="sw"><div class="chip" style="background:#E6E3DC"></div><div class="nm">Kalklicht</div><div class="hx">#E6E3DC</div></div>
+        <div class="sw"><div class="chip" style="background:#B08D3F"></div><div class="nm">Messing</div><div class="hx">#B08D3F</div></div>
+        <div class="sw"><div class="chip" style="background:#4FA8A0"></div><div class="nm">Vigilanz</div><div class="hx">#4FA8A0</div></div>
+        <div class="sw"><div class="chip" style="background:#E9EAEC"></div><div class="nm">Protokoll</div><div class="hx">#E9EAEC</div></div>
+      </div>
+
+      <p style="font-size:var(--s-1);color:var(--ink-2)">Messing ist Akzent, nie
+      Fl&auml;che &mdash; h&ouml;chstens ein Messing-Element pro Blickfeld.
+      Vigilanz ist nie dekorativ: es markiert ausschliesslich Daten, Skalen und
+      Zust&auml;nde. Helles Gegenst&uuml;ck ist ein k&uuml;hles Protokollgrau,
+      kein Creme.</p>
+
+      <div class="spec">
+        <div>
+          <span class="tag">Titel &middot; Spectral</span>
+          <span class="sample s-disp">Handlungssicherheit</span>
+          <span style="font-size:var(--s-1);color:var(--ink-2)">SIL OFL, frei.
+          F&uuml;r den Bildschirm entworfene, n&uuml;chterne Serif. Dauer ohne Nostalgie.
+          Ausbaupfad: Lyon Text.</span>
+        </div>
+        <div>
+          <span class="tag">Text &middot; IBM Plex Sans</span>
+          <span class="sample s-body">Handlungssicherheit</span>
+          <span style="font-size:var(--s-1);color:var(--ink-2)">SIL OFL, frei.
+          Institutionell, technisch, im Schweizer Gesundheitsmarkt unverbraucht.
+          Ausbaupfad: Suisse Int&rsquo;l.</span>
+        </div>
+        <div>
+          <span class="tag">Daten &middot; IBM Plex Mono</span>
+          <span class="sample s-mono">RASS &minus;5&hellip;+4</span>
+          <span style="font-size:var(--s-1);color:var(--ink-2)">Skalen, Ziffern,
+          Beschriftungen. Immer <span class="mono" style="text-transform:none">tabular-nums</span>.
+          Jahr&#8209;1&#8209;Budget geht in Rechtspr&uuml;fung, nicht in Schriftlizenzen.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">05</span><h2>Der Name</h2></div>
+    <div class="stack">
+      <div class="callout">
+        <p class="h">Vorentscheid</p>
+        <p><strong>&laquo;Saturn&raquo; ist gesperrt.</strong> Kollision mit
+        MediaMarktSaturn &mdash; jede Suchanfrage landet dort. Die saturnische Idee
+        tr&auml;gt die Marke, der Name tr&auml;gt sie nicht. Saturn bleibt internes
+        Leitbild, nie &ouml;ffentlicher Name.</p>
+      </div>
+
+      <p>SATOR, lateinisch &laquo;der S&auml;mann, der Begr&uuml;nder&raquo;. Wortwurzel
+      <em>serere</em>, s&auml;en &mdash; dieselbe Wurzel wie <em>Saturnus</em>, r&ouml;mischer
+      Gott der Aussaat und der Zeit. Der Kern des Vorhabens ist, Wissen
+      weiterzugeben.</p>
+
+      <div class="tblwrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Kandidat</th><th>Sekunde&nbsp;1</th><th>USP</th><th>Dauer</th>
+              <th>CH&#8209;Sprachen</th><th>Schutz</th><th>Breite</th><th>Summe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="lead"><td>SATOR</td><td class="num">5</td><td class="num">4</td><td class="num">5</td><td class="num">5</td><td class="num">5</td><td class="num">5</td><td class="num">29</td></tr>
+            <tr><td>VIGILIA</td><td class="num">4</td><td class="num">5</td><td class="num">4</td><td class="num">2</td><td class="num">4</td><td class="num">4</td><td class="num">23</td></tr>
+            <tr><td>AMBITUS</td><td class="num">3</td><td class="num">5</td><td class="num">4</td><td class="num">4</td><td class="num">4</td><td class="num">3</td><td class="num">23</td></tr>
+            <tr><td>GRAT</td><td class="num">5</td><td class="num">4</td><td class="num">4</td><td class="num">3</td><td class="num">2</td><td class="num">4</td><td class="num">22</td></tr>
+            <tr><td>LIGATUR</td><td class="num">3</td><td class="num">3</td><td class="num">3</td><td class="num">4</td><td class="num">3</td><td class="num">3</td><td class="num">19</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout">
+        <p class="h">Nicht gepr&uuml;ft, nicht freigegeben</p>
+        <p>Die Empfehlung steht unter Vorbehalt. <strong>SATO Healthcare
+        Switzerland AG</strong> (Opfikon, Auto&#8209;ID f&uuml;r Spit&auml;ler) existiert &mdash;
+        phonetisch nah, andere Klassen, aber gleiche Branche. Swissreg, Zefix,
+        TMview und eine anwaltliche Beurteilung der Verwechslungsgefahr sind
+        zwingend, bevor irgendetwas gedruckt wird. Budget daf&uuml;r:
+        CHF&nbsp;1'700&nbsp;&ndash;&nbsp;4'050 im ersten Jahr.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">06</span><h2>Markenarchitektur</h2></div>
+    <p class="lede" style="margin-bottom:22px">Eine Dachmarke, vier Linien.
+    Kein zweiter Markenaufbau, kein getrenntes Budget.</p>
+    <div class="arch">
+      <div class="arch-cell">
+        <span class="state on">2027 aktiv</span>
+        <h3>SATOR Offen</h3>
+        <p>Skripte, Kurse, Fallbibliothek. Gratis bis g&uuml;nstig. Liefert Reichweite,
+        Legitimation und den Talentpool. Ansprache: du.</p>
+      </div>
+      <div class="arch-cell">
+        <span class="state on">2027 aktiv</span>
+        <h3>SATOR Institut</h3>
+        <p>Schulung, Beratung, Fachaudit, Interimsf&uuml;hrung f&uuml;r Institutionen.
+        Tr&auml;gt die Marge. Ansprache: Sie.</p>
+      </div>
+      <div class="arch-cell">
+        <span class="state off">Roadmap</span>
+        <h3>SATOR Pflege</h3>
+        <p>Operative pflegerische Leistung. Reguliert: KVG&#8209;Zulassung, kantonale
+        Betriebsbewilligung. Nur bei Entscheid E&#8209;1.</p>
+      </div>
+      <div class="arch-cell">
+        <span class="state off">Intern</span>
+        <h3>SATOR Labor</h3>
+        <p>KI&#8209;gest&uuml;tzte Werkzeuge. 2027 <strong>keine Aussenmarke</strong>, sondern
+        interne F&auml;higkeit, die Offen und Institut besser macht.</p>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:24px">
+      <p class="h">Das Preisprinzip geh&ouml;rt nach vorn, nicht versteckt</p>
+      <p>Gratis f&uuml;r die einen, teuer f&uuml;r die anderen wirkt unerkl&auml;rt wie
+      Zwei&#8209;Klassen&#8209;Medizin &mdash; das Gegenteil der Absicht. &Ouml;ffentlich gemacht
+      und j&auml;hrlich mit Zahlen belegt wird daraus das st&auml;rkste Argument der Marke:
+      <em>&laquo;Der Preis richtet sich nach der Zahlungsf&auml;higkeit. Was Institutionen
+      zahlen, finanziert den freien Zugang.&raquo;</em></p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">07</span><h2>Weg zum 01.01.2027</h2></div>
+    <p class="lede" style="margin-bottom:22px">17 Wochen, sechs Phasen,
+    27 Arbeitspakete. Ein Paket gilt als <em>in Planung</em>, wenn Ziel, Owner,
+    Termin, Abh&auml;ngigkeit, Aufwand und Definition&nbsp;of&nbsp;Done stehen.
+    Ziel: 44 von rund 55 Paketen bis Ende 2028 &mdash; 80&nbsp;%.</p>
+
+    <div class="phases">
+      <div class="ph"><span class="p-n">P0</span><span class="p-d">07.09. &ndash; 20.09.2026</span><span class="p-t"><b>Entscheidung</b>Brand Brief freigegeben, E&#8209;1 bis E&#8209;4 entschieden</span></div>
+      <div class="ph"><span class="p-n">P1</span><span class="p-d">21.09. &ndash; 18.10.2026</span><span class="p-t"><b>Name und Recht</b>Anwaltliche Freigabe, Markenanmeldung IGE, Domains gesichert</span></div>
+      <div class="ph"><span class="p-n">P2</span><span class="p-d">12.10. &ndash; 08.11.2026</span><span class="p-t"><b>Visuelle Identit&auml;t</b>Logopaket, Kontrastpr&uuml;fung WCAG&nbsp;AA, Kontinuum-Skala, Basisvorlagen</span></div>
+      <div class="ph"><span class="p-n">P3</span><span class="p-d">02.11. &ndash; 29.11.2026</span><span class="p-t"><b>Inhalt</b>Kontinuum-Modell mit Quellenapparat, von zwei Peers gegengelesen</span></div>
+      <div class="ph"><span class="p-n">P4</span><span class="p-d">23.11. &ndash; 20.12.2026</span><span class="p-t"><b>Kan&auml;le und Recht</b>Website live, revDSG-Konzept, KVG/KLV-Vorpr&uuml;fung, Rechtstexte</span></div>
+      <div class="ph"><span class="p-n">P5</span><span class="p-d">21.12.2026 &ndash; 03.01.2027</span><span class="p-t"><b>Planung 2027/28</b>Alle Pakete auf Planungsniveau, 80&#8209;%&#8209;Review</span></div>
+    </div>
+
+    <div class="callout" style="margin-top:24px">
+      <p class="h">Pushback &mdash; die Rechnung geht nicht auf</p>
+      <p>Gesch&auml;tzter Aufwand P0&ndash;P5: <strong>148&nbsp;h</strong> in 17 Wochen, also
+      <strong>8.7&nbsp;h pro Woche</strong>. Bei realistischen 6&nbsp;h neben Beruf und
+      Familie fehlen <strong>46&nbsp;Stunden</strong>. Empfehlung: Reinzeichnung und
+      Website extern vergeben (CHF&nbsp;6'000&ndash;12'000, spart ~40&nbsp;h) und die
+      Briefschaft auf 2027 schieben. Damit sinkt der Eigenaufwand auf
+      ~95&nbsp;h und der Termin h&auml;lt. Die Alternative ist ein ehrliches
+      Verschieben auf den 31.03.2027 &mdash; nicht ein stilles &Uuml;berziehen.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">08</span><h2>Vier Entscheide blockieren alles</h2></div>
+    <div class="dec">
+      <div class="dec-cell">
+        <span class="id">E&#8209;1</span>
+        <h3>Geh&ouml;rt das Spitex-Vorhaben unter diese Marke?</h3>
+        <p>Bestimmt, ob die Marke reguliert ist &mdash; KVG&#8209;Zulassung, kantonale
+        Bewilligung, Werbebeschr&auml;nkungen &mdash; oder frei. Ver&auml;ndert Name,
+        Tonalit&auml;t, Rechtstexte, Pr&uuml;faufwand.</p>
+        <p class="rec"><b>Empfehlung: sp&auml;ter.</b> Linie <em>SATOR Pflege</em>
+        architektonisch vorsehen, 2027 nicht aktivieren. H&auml;lt beide Wege offen,
+        kostet 2026 nichts.</p>
+        <span class="due">F&auml;llig 13.09.2026</span>
+      </div>
+      <div class="dec-cell">
+        <span class="id">E&#8209;2</span>
+        <h3>Namensrichtung</h3>
+        <p>SATOR (abstrakt, schutzf&auml;hig), VIGILIA (pr&auml;ziseste USP, scheitert an
+        FR/EN), GRAT (sofort verst&auml;ndlich, schwach schutzf&auml;hig).</p>
+        <p class="rec"><b>Empfehlung: SATOR.</b> H&ouml;chste Summe in der Matrix,
+        tr&auml;gt alle vier Linien und &uuml;bersteht 20 Jahre. Erst danach beginnt
+        die Rechtspr&uuml;fung.</p>
+        <span class="due">F&auml;llig 13.09.2026</span>
+      </div>
+      <div class="dec-cell">
+        <span class="id">E&#8209;3</span>
+        <h3>Geografischer Fokus</h3>
+        <p>Ein Kanton, Deutschschweiz oder ganze Schweiz inklusive Romandie.
+        Letzteres verlangt FR&#8209;Tauglichkeit von Anfang an.</p>
+        <p class="rec"><b>Empfehlung: Deutschschweiz.</b> Gr&ouml;sster Markt, eine
+        Sprache, passt zur Kapazit&auml;t. Romandie kostet +30&nbsp;h und laufende
+        &Uuml;bersetzung.</p>
+        <span class="due">F&auml;llig 13.09.2026</span>
+      </div>
+      <div class="dec-cell">
+        <span class="id">E&#8209;4</span>
+        <h3>Budget und Wochenkapazit&auml;t</h3>
+        <p>Ohne die reale Stundenzahl pro Woche ist die Timeline eine Behauptung.
+        Die 46&#8209;Stunden&#8209;L&uuml;cke muss zugekauft, gek&uuml;rzt oder verschoben werden.</p>
+        <p class="rec"><b>Empfehlung: zukaufen.</b> CHF&nbsp;6'000&ndash;12'000 f&uuml;r
+        Reinzeichnung und Website, plus CHF&nbsp;3'800&ndash;8'400 Recht und Domains.</p>
+        <span class="due">F&auml;llig 20.09.2026</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="tag">Entwurf v1 &middot; 06.09.2026 &middot; keine gepr&uuml;fte Rechtsauskunft &middot;
+    Marken-, Firmen- und Domainverf&uuml;gbarkeit oberfl&auml;chlich recherchiert und vor
+    jeder Festlegung formal zu pr&uuml;fen</p>
+  </footer>
+
+</div>
