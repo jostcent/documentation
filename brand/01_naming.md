@@ -1,6 +1,7 @@
 # 01 – Naming
 
-Stand 06.09.2026 · Entwurf v1 · **Empfehlung: SATOR** · Entscheid E-2 offen
+Stand 06.09.2026 · **Entschieden: SATOR** (E-2, 06.09.2026) · Prüfkandidat,
+noch nicht rechtlich freigegeben
 
 ## 1. Vorentscheid: „Saturn" ist gesperrt
 
@@ -25,7 +26,7 @@ faktisch blockiert.
 
 ## 3. Shortlist
 
-### SATOR — Empfehlung
+### SATOR — gesetzt
 
 Lateinisch „der Sämann, der Begründer". Wortwurzel *serere* (säen) —
 dieselbe Wurzel wie *Saturnus*, römischer Gott der Aussaat und der Zeit.
@@ -54,7 +55,7 @@ existiert — phonetisch nah, aber andere Klassen (9/42-Hardware) und
 anderes Publikum. **Muss formell geprüft werden**, ist nicht
 selbstverständlich unkritisch.
 
-### VIGILIA — Fallback
+### VIGILIA — dokumentierte Reserve
 
 Lateinisch „die Wachheit, die Nachtwache". Vigilanz ist der eine Parameter,
 den Psychiatrie und Intensivpflege gemeinsam kontinuierlich messen —
@@ -65,9 +66,10 @@ die präziseste Abbildung der USP überhaupt.
   In der Romandie und international belastet.
 - A5 ✔ gut schützbar
 
-Erste Recherche: keine Kollision in CH-Pflege/Spitex ersichtlich.
+Erste Recherche: keine Kollision in CH-Pflege/Spitex ersichtlich. Bleibt
+als Reserve dokumentiert, falls die Rechtsprüfung SATOR blockiert.
 
-### GRAT — Alternative mit anderem Charakter
+### GRAT — verworfen (E-2)
 
 Der Grat ist die Linie, an der zwei Hänge zusammentreffen — ein Kontinuum
 als geologische Form. Schweizerisch, einsilbig, hart, sofort verstanden.
@@ -101,7 +103,7 @@ als geologische Form. Schweizerisch, einsilbig, hart, sofort verstanden.
 Skala 1–5. Gewichtung gleich, weil alle Anforderungen K.-o.-Charakter
 haben.
 
-## 5. Linienbezeichnungen (bei SATOR)
+## 5. Linienbezeichnungen
 
 | Linie | Name | Verwendung |
 |---|---|---|

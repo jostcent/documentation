@@ -1,6 +1,6 @@
 # 00 – Strategie und Positionierung
 
-Stand 06.09.2026 · Entwurf v1 · Entscheid ausstehend
+Stand 06.09.2026 · Entwurf v1 · E-1 bis E-4 entschieden am 06.09.2026
 
 ## 1. Der Kern in einem Satz
 
@@ -117,7 +117,7 @@ wahrnehmen. Erwartung: null Umsatz, hohe strategische Rendite.
 
 | # | Risiko | Eintritt | Wirkung | Gegenmassnahme |
 |---|---|---|---|---|
-| R1 | **Verzettelung.** Vier Linien = vier Geschäftsmodelle für eine Person. | hoch | tödlich | 2027 nur OFFEN + INSTITUT operativ. KERN und LABOR bleiben Roadmap. Entscheid E-1. |
+| R1 | **Verzettelung.** Vier Linien = vier Geschäftsmodelle für eine Person. | hoch | tödlich | Entschärft durch E-1: 2027 nur OFFEN + INSTITUT operativ. KERN und LABOR bleiben Roadmap. |
 | R2 | Namenskollision / Marke nicht schützbar | mittel | teuer (Rebranding) | Formeller Prüfpfad vor jeder Festlegung, `01_naming.md` |
 | R3 | Regulatorik: KVG/KLV-Zulassung, kantonale Bewilligung, Titelschutz | mittel | Untersagung, Bussen | Juristische Vorprüfung als Arbeitspaket AP-12, vor Website-Go-live |
 | R4 | Datenschutz: Gesundheitsdaten sind besonders schützenswert (revDSG) | hoch bei KI-Einsatz | Reputationsverlust, Anzeige | Nie Klientendaten in generische KI-Dienste. Datenschutzkonzept AP-13. |
