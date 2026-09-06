@@ -24,7 +24,9 @@ mit zusammen rund **72 Stunden über 30 Wochen = 2.4 h pro Woche**.
 
 | AP | Ziel | Ende | Aufwand | DoD |
 |---|---|---|---|---|
-| S1-01 | Domains `sator.ch` und `sator.com` sichern | 13.09.2026 | 1 h + CHF 50 | Registriert und auf dich lautend |
+| S1-01a | **Whois `sator.ch`:** wer hält sie, seit wann, ist sie in Gebrauch? | 13.09.2026 | 0.5 h | Halter, Registrierungsdatum und Nutzungsstatus notiert |
+| S1-01b | `sator.swiss` beantragen (BAKOM-Prüfung, 20 Tage Publikation) | 20.09.2026 | 1 h + CHF 120/J | Antrag eingereicht |
+| S1-01c | Ausweichdomain sichern: `sator-institut.ch` oder `sator.health` | 20.09.2026 | 0.5 h + CHF 50 | Registriert |
 | S1-02 | Swissreg- und Zefix-Eigenrecherche SATOR, Kl. 41/44/42/35 | 30.09.2026 | 4 h | Trefferliste mit Bewertung; Entscheid Name hält / hält nicht |
 | S1-03 | **Kontinuum-Modell schreiben** (ehemals AP-16) | 31.03.2027 | 20 h, ca. 2.5 h/Monat | Zitierfähiger Text, ≥ 15 Quellen |
 | S1-04 | Gegenlesen durch 2 Peers (1× Psychiatrie, 1× IPS) | 30.04.2027 | 4 h | 2 schriftliche Rückmeldungen eingearbeitet |

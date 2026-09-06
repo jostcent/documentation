@@ -44,7 +44,12 @@ Zertifikaten unmittelbar verwendbar.
 - A4 ✔✔ SA-TOR trägt in allen vier Landessprachen
 - A5 ✔✔ abstrakt, nicht beschreibend, gut schützbar
 - A6 ✔✔ trägt Institut, Bildung, Klinik gleichermassen
-- A7 offen, `.ch` zu prüfen
+- A7 **`sator.ch` und `sator.com` sind vergeben** (Stand 06.09.2026).
+  `.com` ist bei einem fünfbuchstabigen lateinischen Wort erwartbar und
+  ohne Aussagekraft. `.ch` ist zu klären: Whois entscheidet, ob es ein
+  Parkplatz oder ein Schweizer Unternehmen im Gesundheits- oder
+  Bildungsbereich ist. Letzteres wäre ein Warnsignal für den Namen
+  insgesamt. **Primäradresse neu: `sator.swiss`.**
 
 **Risiken:** (a) *Tenet* (Nolan, 2020) hat das SATOR-Quadrat in die
 Popkultur getragen — verblasst, aber vorhanden. (b) Das Quadrat wurde
@@ -125,8 +130,14 @@ Nichts davon ist erledigt. Reihenfolge zwingend, Abbruch bei erstem Treffer.
    42 (Software), 35 (Unternehmensberatung).
 2. **Zefix** — Firmennamen-Kollision Handelsregister CH.
 3. **EUIPO / TMview** — internationale Ähnlichkeitsrecherche.
-4. **Domain** — `.ch` primär, `.com` und `.swiss` sekundär.
-   `.swiss` verlangt Schweizer Bezug und ein Antragsverfahren.
+4. **Domain** — **`.swiss` primär** (`.ch` und `.com` sind vergeben).
+   Seit 24.04.2024 auch für natürliche Personen mit Wohnsitz in der
+   Schweiz oder Schweizer Bürgerrecht offen, kein Handelsregistereintrag
+   nötig. Kosten rund CHF 115–170 pro Jahr. Ablauf: Antrag, BAKOM-Prüfung,
+   danach 20 Tage öffentliche Publikation auf nic.swiss, in denen
+   konkurrierende Anträge eingehen können — **also früh beantragen**,
+   nicht kurz vor dem Marktauftritt. Bedingungen vor dem Antrag beim
+   BAKOM verifizieren.
 5. **Social Handles** — LinkedIn, Instagram, YouTube.
 6. **Anwaltliche Schlussbeurteilung** Verwechslungsgefahr —
    nicht optional, siehe SATO-Befund oben.
