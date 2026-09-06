@@ -11,13 +11,18 @@ Kompetenzkontinuums **Psychiatrie – Pflege – Intensivpflege**.
 | `01_naming.md` | Name SATOR gesetzt, Bewertungsmatrix, Prüfpfad | v2 |
 | `02_visuelle_identitaet.md` | Bildmarke, Farbe, Typografie, Raster | Entwurf v1 |
 | `03_verbale_identitaet.md` | Tonalität, Claims, Sprachregeln | Entwurf v1 |
-| `04_timeline_bis_2027.md` | 28 Arbeitspakete bis 03.01.2027, Roadmap 2027/28 | v2 |
-| `05_offene_entscheide.md` | E-1 bis E-4 entschieden, E-5 bis E-8 offen | v2 |
+| `04_timeline.md` | Drei Spuren bis 31.03.2027, operative Phase Apr–Aug 2027 | v3 |
+| `05_offene_entscheide.md` | E-1 bis E-4 entschieden, E-5 bis E-10 offen | v3 |
+| `06_finanzierung_und_tempo.md` | Kapitalreihenfolge, warum Investoren nicht beschleunigen | neu |
 
-## Zielzustand 01.01.2027
+## Zielzustand 31.08.2027
 
-80 % aller Arbeitspakete bis Ende 2028 im Zustand **"in Planung"**.
-Definition siehe `04_timeline_bis_2027.md`, Abschnitt "Was 80 % heisst".
+Marktauftritt **01.09.2027**. 80 % aller Arbeitspakete bis Ende 2029 im
+Zustand **"in Planung"**. Definition siehe `04_timeline.md`, Abschnitt 5.
+
+Beschleunigungsfall auf Juni 2027, wenn bis 31.03.2027 sowohl der
+Innosuisse-Innovationsscheck zugesprochen als auch ein zahlender Pilot
+unterzeichnet ist.
 
 ## Entschieden am 06.09.2026
 
@@ -30,9 +35,12 @@ Definition siehe `04_timeline_bis_2027.md`, Abschnitt "Was 80 % heisst".
 
 ## Nächster Schritt
 
-**AP-06 ab 07.09.2026:** Swissreg- und Zefix-Eigenrecherche zu SATOR in
-den Klassen 41, 44, 42, 35. Parallel AP-28: Offerten für Reinzeichnung
-und Website einholen.
+**Diese Woche, 5 Stunden:**
+
+1. **S1-01** — Domains `sator.ch` und `sator.com` sichern. 1 h, CHF 50.
+2. **S1-02** — Swissreg- und Zefix-Eigenrecherche SATOR in den Klassen
+   41, 44, 42, 35. 4 h. Wenn der Name nicht hält, ändert sich alles —
+   das gehört jetzt geklärt, nicht im April.
 
 ## Arbeitsstand
 
