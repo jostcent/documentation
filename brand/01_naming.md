@@ -1,7 +1,7 @@
 # 01 – Naming
 
-Stand 06.09.2026 · **Entschieden: SATOR** (E-2, 06.09.2026) · Prüfkandidat,
-noch nicht rechtlich freigegeben
+Stand 09.09.2026 · **SATOR gefallen** — Namensraum-Befund, siehe
+`recherche/2026-09-09_namensraum_sator.md`. Runde 2 offen.
 
 ## 1. Vorentscheid: „Saturn" ist gesperrt
 
@@ -23,10 +23,11 @@ faktisch blockiert.
 | A5 | Kennzeichnungskräftig, also schützbar (Kl. 41, 44, 42, 35) | Substanzschutz |
 | A6 | Trägt Bildung **und** klinische Leistung **und** Beratung | Branded House |
 | A7 | `.ch` frei oder erwerbbar | Praxis |
+| **A8** | **Sauberer Namensraum: keine Treffer auf Aufsichts- oder Warnlisten (FINMA, BAG, Swissmedic, SECO), keine laufenden Liquidationen, keine Betrugsberichterstattung** | **K.-o. — SATOR ist genau hier gescheitert** |
 
 ## 3. Shortlist
 
-### SATOR — gesetzt
+### SATOR — gefallen am 09.09.2026 (A8)
 
 Lateinisch „der Sämann, der Begründer". Wortwurzel *serere* (säen) —
 dieselbe Wurzel wie *Saturnus*, römischer Gott der Aussaat und der Zeit.
@@ -60,15 +61,18 @@ existiert — phonetisch nah, aber andere Klassen (9/42-Hardware) und
 anderes Publikum. **Muss formell geprüft werden**, ist nicht
 selbstverständlich unkritisch.
 
-### VIGILIA — dokumentierte Reserve
+### VIGILIA — Reserve, Bewertung durch E-3 verbessert
 
 Lateinisch „die Wachheit, die Nachtwache". Vigilanz ist der eine Parameter,
 den Psychiatrie und Intensivpflege gemeinsam kontinuierlich messen —
 die präziseste Abbildung der USP überhaupt.
 
 - A2 ✔✔✔ stärkster Kandidat
-- A4 ✘ EN „vigil" = Totenwache; FR „vigile" = Wachmann/Nachtwächter.
-  In der Romandie und international belastet.
+- A4 ~ EN „vigil" = Totenwache; FR „vigile" = Wachmann/Nachtwächter.
+  **Durch E-3 (Deutschschweiz) entschärft** — das Kriterium war für einen
+  gesamtschweizerischen Markt gewichtet. Bleibt ein Thema bei späterer
+  Romandie-Erschliessung und in einem Berufsfeld, in dem Menschen sterben.
+- A8 noch nicht geprüft.
 - A5 ✔ gut schützbar
 
 Erste Recherche: keine Kollision in CH-Pflege/Spitex ersichtlich. Bleibt
@@ -121,9 +125,17 @@ haben.
 Claim: **Wissen säen.**
 Positionierungssatz: **Psychiatrie. Pflege. Intensiv. Ein Kontinuum.**
 
-## 6. Prüfpfad — verbindlich vor jeder Festlegung
+## 6. Prüfpfad — korrigierte Reihenfolge ab Runde 2
 
-Nichts davon ist erledigt. Reihenfolge zwingend, Abbruch bei erstem Treffer.
+**Der Fehler in Runde 1 war die Reihenfolge:** erst Matrix, dann
+Namensraum. Damit konnte der Befund die Bewertung nicht mehr korrigieren.
+
+Ab Runde 2: **Namensraum-Screening vor der Matrix.** 12–15 Kandidaten,
+je 10 Minuten — Swissreg identisch, Zefix, `"NAME" Schweiz`,
+`"NAME" Warnung OR Betrug OR FINMA`, Domainstatus. Nur Überlebende
+kommen in die Bewertung.
+
+Danach für den Erstplatzierten, Abbruch bei erstem Treffer:
 
 1. **Swissreg-Recherche** (ige.ch) — identische und ähnliche Marken in
    Kl. 41 (Ausbildung), 44 (medizinische Dienstleistungen),

@@ -7,7 +7,7 @@ Stand 06.09.2026 · **E-1 bis E-4 entschieden, E-4 danach revidiert**
 | # | Frage | Entscheid | Folge |
 |---|---|---|---|
 | **E-1** | Spitex unter dieser Marke? | **Später** | Linie `SATOR Pflege` bleibt in der Architektur, wird 2027 nicht aktiviert. Marke bleibt unreguliert und schnell. Andockung 2028 möglich. |
-| **E-2** | Namensrichtung | **SATOR** | Prüfkandidat. AP-05 bis AP-09 starten. VIGILIA bleibt dokumentierte Reserve, falls die Rechtsprüfung SATOR blockiert. |
+| **E-2** | Namensrichtung | ~~SATOR~~ **aufgehoben 09.09.2026** | Namensraum-Befund: `sator.ch` seit 1998 vergeben, `www.sator-holdingag.ch` auf der FINMA-Warnliste, Sator Holding SA Paradiso in Liquidation. Markenrechtlich unkritisch, reputationell untragbar. **Runde 2 nötig.** Siehe `recherche/2026-09-09_namensraum_sator.md`. |
 | **E-3** | Geografischer Fokus | **Deutschschweiz** | Website und Material einsprachig. Romandie rückt in die Roadmap 2028. Kein FR-Overhead 2026. |
 | **E-4** | Kapazität und Budget | **revidiert: verschieben** | Ursprünglich «zukaufen». Am 06.09.2026 ersetzt: operative Markenphase auf 01.04. – 31.08.2027, Marktauftritt 01.09.2027. Zukauf bleibt gültig, aber ab April 2027. Siehe `04_timeline.md`. |
 
