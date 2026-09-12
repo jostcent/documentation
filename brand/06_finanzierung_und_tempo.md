@@ -14,9 +14,17 @@ für keinen der realistischen Schweizer Kapitalgeber pitchfähig:
 |---|---|
 | Eingetragene Firma (GmbH/AG) | keine |
 | Produkt oder Prototyp | keiner |
-| Zahlender Kunde | keiner |
+| Zahlender Kunde | **zu korrigieren** — ZSR-Nummer seit rund 2014, Umsatzhistorie zu prüfen |
 | Skalierbares Modell | Beratung skaliert nicht |
 | Wissenschaftliche Basis, Hochschulbezug (Venture Kick) | keiner |
+
+**Korrektur vom 12.09.2026:** Die Zeile «zahlender Kunde: keiner» war
+voreilig. Eine ZSR-Nummer seit rund zwölf Jahren bedeutet Zulassung als
+Leistungserbringer und, sofern Umsatz gelaufen ist, belegbare Historie.
+Das ist für den KMU-Status bei Innosuisse relevant und verändert das
+Gespräch mit jedem Kapitalgeber. Die übrigen vier Zeilen der Tabelle
+bleiben unverändert gültig — und sie genügen weiterhin, um vom Pitchen
+abzuraten.
 
 Dazu kommt: **das Schweizer Ökosystem ist klein.** SICTIC, Swiss Health
 Angels, SwissHealth Ventures und die Stiftungen kennen sich. Ein Pitch

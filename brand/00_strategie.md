@@ -131,6 +131,31 @@ Eine Marke im Gesundheitswesen wird an Substanz gemessen, nicht an
 Gestaltung. Bis Ende 2027 braucht es mindestens:
 
 1. **Ein publiziertes Modell** des Kompetenzkontinuums — zitierfähig,
-   mit Quellenapparat. Das ist der eigentliche Markenkern.
-2. **Drei Referenzen** aus Gruppe 1/2 mit nennbarem Ergebnis.
-3. **Eine offene Ressource**, die messbar genutzt wird.
+   mit Quellenapparat. Das ist der eigentliche Markenkern. **Offen.**
+2. **Drei Referenzen** aus Gruppe 1/2 mit nennbarem Ergebnis. **Offen.**
+3. **Eine offene Ressource**, die messbar genutzt wird. **Offen.**
+
+### Vorhandene Substanz — korrigiert am 12.09.2026
+
+Ein Punkt war in v1 nicht erfasst und wurde dadurch unterschätzt:
+
+**ZSR-Nummer seit rund 2014.** Zugelassener Leistungserbringer seit
+zwölf Jahren. Das ist kein Verwaltungsdetail, sondern ein
+Substanznachweis, den keine Gestaltung erzeugen kann:
+
+- Für **zuweisende Ärztinnen**: die Geldfrage ist beantwortet, bevor sie
+  gestellt wird. Das ist die höchste Hürde jeder Zuweisung.
+- Für **Institutionen**: du bist ein etablierter Leistungserbringer, kein
+  Neugründer mit einer Idee.
+- Für **Kapitalgeber**: zwölf Jahre Zulassung sind belegbare Historie.
+  Sofern Umsatz gelaufen ist, ist die Aussage «kein Kunde» in
+  `06_finanzierung_und_tempo.md` falsch und dort zu korrigieren.
+
+**Das Vorhaben ist damit keine Gründung, sondern eine Neuausrichtung
+eines seit zwölf Jahren zugelassenen Betriebs.** Das verändert Tonalität,
+Zeitplan und Kapitalgespräch grundlegend.
+
+Zu klären (gehört ins Spitex-/KLV-7-Projekt, nicht hierher): ob die
+Nummer aktuell aktiv ist, auf welche Leistungserbringerkategorie und
+welchen Kanton sie lautet, und ob die Berufsausübungsbewilligung
+gültig ist.
