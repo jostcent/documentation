@@ -33,6 +33,17 @@ unterzeichnet ist.
 | E-3 | Markt: **Deutschschweiz** — Romandie ab 2028 |
 | E-4 | Kapazität: **zukaufen** — Reinzeichnung und Website extern |
 
+## Sofortspur — Netzwerkaktivierung ab November 2026
+
+Unabhängig von der Marke. Leistung: psychiatrische Begleitung zu Hause,
+Zuweiser sind Psychiater und Kliniken. ZSR-Nummer besteht seit rund 2014.
+
+| | Stand |
+|---|---|
+| Domain `centenocastro.ch` | **gekauft 12.09.2026**, CHF 13.95 |
+| Visitenkarte | Entwurf 01, `visitenkarte.html` — 4 Angaben fehlen |
+| `weaning.ch` | vorhanden, für diese Zielgruppe **nicht** verwenden. Asset für Runde 2 oder eine spätere Intensivpflege-Linie |
+
 ## Nächster Schritt
 
 **Diese Woche, 5 Stunden:**

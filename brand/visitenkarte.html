@@ -1,0 +1,276 @@
+<title>Visitenkarte Centeno Castro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<style>
+:root{
+  --page:#E9EAEC;
+  --panel:#F5F6F7;
+  --ink:#191C21;
+  --ink-2:#5C636D;
+  --ink-3:#868D96;
+  --rule:#C6CACF;
+  --rule-soft:#D8DBDF;
+  --brass:#8A6D24;
+  --fill:#FFFFFF;
+
+  --card-ink:#191C21;
+  --card-ink-2:#5C636D;
+  --card-brass:#8A6D24;
+  --card-bg:#FCFBF9;
+
+  --f-disp:"Spectral",Georgia,"Times New Roman",serif;
+  --f-body:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
+  --f-mono:"IBM Plex Mono","SF Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --page:#191C21; --panel:#23272E; --ink:#E6E3DC; --ink-2:#8D949E;
+    --ink-3:#6C737C; --rule:#343A42; --rule-soft:#2A2F36; --brass:#B08D3F;
+    --fill:#2B3038;
+  }
+}
+:root[data-theme="dark"]{
+  --page:#191C21; --panel:#23272E; --ink:#E6E3DC; --ink-2:#8D949E;
+  --ink-3:#6C737C; --rule:#343A42; --rule-soft:#2A2F36; --brass:#B08D3F;
+  --fill:#2B3038;
+}
+
+*{box-sizing:border-box}
+body{background:var(--page);color:var(--ink);font-family:var(--f-body);
+  font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:900px;margin:0 auto;padding:clamp(28px,5vw,56px) clamp(20px,4vw,40px) 64px}
+h1{font-family:var(--f-disp);font-weight:400;font-size:clamp(28px,4vw,37px);
+  line-height:1.15;margin:0 0 10px;text-wrap:balance}
+h2{font-family:var(--f-disp);font-weight:400;font-size:23px;margin:0 0 14px}
+p{margin:0;max-width:66ch}
+.lede{color:var(--ink-2);font-size:19px;line-height:1.55;max-width:56ch}
+.tag{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-3)}
+section{border-top:1px solid var(--rule);margin-top:42px;padding-top:30px}
+.stack{display:flex;flex-direction:column;gap:16px}
+
+/* ============ KARTE ============ */
+/* Endformat 85 x 55 mm, Anschnitt 3 mm -> 91 x 61 mm */
+.card{
+  width:91mm;height:61mm;
+  background:var(--card-bg);
+  color:var(--card-ink);
+  padding:8mm;
+  display:flex;flex-direction:column;
+  position:relative;
+  font-synthesis:none;
+}
+.card *{max-width:none}
+
+.c-name{font-family:var(--f-disp);font-weight:400;font-size:13pt;
+  line-height:1.05;letter-spacing:.005em;color:var(--card-ink)}
+.c-titles{font-family:var(--f-body);font-weight:400;font-size:6.5pt;
+  line-height:1.5;color:var(--card-ink-2);margin-top:1.6mm}
+
+/* Die Kontinuum-Linie: Hairline mit zwei Endmarken. Einziges Bildelement. */
+.c-rule{position:relative;height:2.2mm;margin:3.4mm 0 3mm;width:46mm}
+.c-rule i{position:absolute;left:0;right:0;top:1.1mm;height:.22mm;
+  background:var(--card-brass);display:block}
+.c-rule i::before,.c-rule i::after{content:"";position:absolute;top:-1mm;
+  width:.22mm;height:2.2mm;background:var(--card-brass)}
+.c-rule i::before{left:0}
+.c-rule i::after{right:0}
+
+.c-line{font-family:var(--f-disp);font-weight:400;font-size:8.5pt;
+  line-height:1.35;color:var(--card-ink);max-width:62mm}
+.c-line em{font-style:normal;color:var(--card-brass)}
+
+.c-foot{margin-top:auto;display:flex;justify-content:space-between;
+  align-items:flex-end;gap:4mm}
+.c-contact{font-family:var(--f-mono);font-size:6.5pt;line-height:1.7;
+  color:var(--card-ink);font-variant-numeric:tabular-nums}
+.c-contact .web{color:var(--card-brass)}
+.c-zsr{font-family:var(--f-mono);font-size:6pt;letter-spacing:.04em;
+  color:var(--card-ink-2);white-space:nowrap;font-variant-numeric:tabular-nums}
+
+/* Rückseite */
+.card.back{justify-content:center}
+.b-kicker{font-family:var(--f-mono);font-size:6pt;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--card-brass);margin-bottom:3.2mm}
+.b-list{display:flex;flex-direction:column;gap:2.4mm;margin:0;padding:0;list-style:none}
+.b-list li{font-family:var(--f-disp);font-size:8pt;line-height:1.3;
+  color:var(--card-ink);padding-left:4.5mm;position:relative;max-width:70mm}
+.b-list li::before{content:"";position:absolute;left:0;top:1.5mm;
+  width:2.6mm;height:.22mm;background:var(--card-brass)}
+.b-foot{margin-top:5mm;font-family:var(--f-mono);font-size:6pt;
+  letter-spacing:.04em;color:var(--card-ink-2)}
+
+/* Platzhalter */
+.ph{color:var(--card-brass);border-bottom:.3mm dotted var(--card-brass);
+  padding-bottom:.2mm}
+
+/* ============ VORSCHAU ============ */
+.proofs{display:flex;gap:clamp(16px,3vw,28px);flex-wrap:wrap;margin-top:8px}
+.proof{display:flex;flex-direction:column;gap:10px}
+.frame{position:relative;padding:0;background:var(--fill);
+  box-shadow:0 1px 3px rgba(0,0,0,.16),0 6px 20px rgba(0,0,0,.10);
+  border:1px solid var(--rule-soft)}
+/* Schnittmarken: zeigt das Endformat 85x55 innerhalb des Anschnitts */
+.frame::after{content:"";position:absolute;left:3mm;top:3mm;
+  width:85mm;height:55mm;border:.25mm dashed rgba(138,109,36,.55);
+  pointer-events:none}
+.proof .tag{display:flex;justify-content:space-between;gap:12px}
+
+.note{border-left:3px solid var(--brass);padding:14px 0 14px 18px}
+.note .h{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--brass);margin-bottom:7px}
+.note p{font-size:13.5px;color:var(--ink-2)}
+.note p + p{margin-top:9px}
+.note b{color:var(--ink);font-weight:600}
+
+.specs{width:100%;border-collapse:collapse;font-size:13.5px}
+.specs td{padding:9px 0;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+.specs tr:last-child td{border-bottom:0}
+.specs td:first-child{width:42%;color:var(--ink-2);padding-right:18px}
+.specs td:last-child{font-family:var(--f-mono);font-size:12.5px}
+.fill{display:flex;flex-direction:column;gap:11px;margin-top:4px}
+.fill div{display:flex;gap:12px;align-items:baseline;font-size:14px}
+.fill span{font-family:var(--f-mono);font-size:11px;color:var(--brass);
+  letter-spacing:.08em;min-width:22px}
+:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+
+/* ============ DRUCK ============ */
+@media print{
+  @page{size:91mm 61mm;margin:0}
+  body{background:#fff;padding:0;margin:0}
+  .wrap{max-width:none;padding:0;margin:0}
+  .noprint{display:none!important}
+  .proofs{display:block;gap:0;margin:0}
+  .proof{gap:0}
+  .frame{box-shadow:none;border:0;background:#fff}
+  .frame::after{display:none}
+  .card{break-after:page;page-break-after:always}
+  .proof:last-child .card{break-after:auto;page-break-after:auto}
+}
+</style>
+
+<div class="wrap">
+
+  <header class="noprint">
+    <p class="tag" style="margin-bottom:14px">Entwurf 01 &middot; 12.09.2026 &middot; 85 &times; 55 mm</p>
+    <h1>Visitenkarte</h1>
+    <p class="lede">Kein Logo, kein Firmenname. Dein Name, deine beiden Diplome,
+    ein Satz und eine Nummer, die die Geldfrage beantwortet.</p>
+  </header>
+
+  <div class="proofs" style="margin-top:32px">
+
+    <div class="proof">
+      <div class="tag noprint"><span>Vorderseite</span><span>91 &times; 61 mm mit Anschnitt</span></div>
+      <div class="frame">
+        <div class="card front">
+          <div class="c-name">Jost Centeno Castro</div>
+          <div class="c-titles">
+            <span class="ph">dipl. Pflegefachmann HF, Fachrichtung Psychiatrie</span><br>
+            <span class="ph">dipl. Experte Intensivpflege NDS HF</span>
+          </div>
+
+          <div class="c-rule" aria-hidden="true"><i></i></div>
+
+          <div class="c-line">Psychiatrische Pflege zu&nbsp;Hause &mdash;<br>
+          <em>auch bei somatisch komplexen Verl&auml;ufen.</em></div>
+
+          <div class="c-foot">
+            <div class="c-contact">
+              <span class="ph">+41 79 000 00 00</span><br>
+              jost@centenocastro.ch<br>
+              <span class="web">centenocastro.ch</span>
+            </div>
+            <div class="c-zsr">ZSR <span class="ph">X000000</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="proof">
+      <div class="tag noprint"><span>R&uuml;ckseite</span><span>Indikationsliste</span></div>
+      <div class="frame">
+        <div class="card back">
+          <div class="b-kicker">Wann anrufen</div>
+          <ul class="b-list">
+            <li>Nach Klinikaustritt, wenn der &Uuml;bergang zu kippen droht</li>
+            <li>Bei somatischer Multimorbidit&auml;t unter psychiatrischer Medikation</li>
+            <li>Wenn eine Hospitalisierung droht und vermeidbar w&auml;re</li>
+          </ul>
+          <div class="b-foot">centenocastro.ch</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <section class="noprint">
+    <h2>Warum die Karte so aussieht</h2>
+    <div class="stack">
+      <p><b>Die zweite Zeile ist der ganze Verkauf.</b> &laquo;Psychiatrische Pflege
+      zu Hause&raquo; allein ist austauschbar. Der Zusatz ist dein Unterschied: du bist
+      die einzige Nummer im Adressbuch dieser Psychiaterin, die psychiatrisch
+      kompetent ist <em>und</em> somatisch nicht aussteigt.</p>
+
+      <p><b>Die R&uuml;ckseite ist keine Werbung, sondern eine Indikationsliste.</b>
+      Drei Situationen, die eine zuweisende &Auml;rztin sofort wiedererkennt. So liest
+      sie ohnehin &mdash; gib ihr das Format, das sie kennt.</p>
+
+      <p><b>Die ZSR-Nummer beantwortet die h&ouml;chste Zuweisungsh&uuml;rde</b>
+      &mdash; <em>zahlt das jemand?</em> &mdash; bevor sie gestellt wird. Sieben Zeichen
+      statt eines Absatzes.</p>
+
+      <p><b>Das einzige Bildelement ist die Linie unter deinem Namen:</b> eine
+      Haarlinie mit zwei Endmarken. Das ist die Kontinuum-Skala, auf ihr Minimum
+      reduziert. Sie sagt nichts, solange es keine Marke gibt &mdash; und wird zum
+      Wiedererkennungszeichen, sobald es eine gibt.</p>
+
+      <p><b>Kein Logo, kein Firmenname.</b> Art.&nbsp;945&nbsp;OR verlangt bei einer
+      Einzelfirma ohnehin deinen Familiennamen. Und ein Markenname, den in neun
+      Monaten ein anderer abl&ouml;st, verbrennt genau die Erinnerung, die du gerade
+      aktivierst.</p>
+    </div>
+  </section>
+
+  <section class="noprint">
+    <h2>Was mir noch fehlt</h2>
+    <p class="lede" style="margin-bottom:18px">Die vier goldenen Stellen auf der
+    Karte sind Platzhalter. Gib mir die Angaben, dann ist die Datei druckfertig.</p>
+    <div class="fill">
+      <div><span>01</span><div>Diplomtitel Psychiatrie &mdash; <b>wortgetreu wie verliehen</b></div></div>
+      <div><span>02</span><div>Diplomtitel Intensivpflege &mdash; <b>wortgetreu wie verliehen</b></div></div>
+      <div><span>03</span><div>Telefonnummer</div></div>
+      <div><span>04</span><div>ZSR-Nummer</div></div>
+      <div><span>05</span><div>Gew&uuml;nschte E-Mail-Adresse &mdash; <span style="font-family:var(--f-mono);font-size:12.5px">jost@</span> oder <span style="font-family:var(--f-mono);font-size:12.5px">j.centenocastro@</span>?</div></div>
+    </div>
+    <div class="note" style="margin-top:24px">
+      <p class="h">Bevor es in den Druck geht</p>
+      <p>Zwei Dinge geh&ouml;ren in dein Spitex- und KLV-7-Projekt, nicht hierher &mdash;
+      m&uuml;ssen aber stimmen, bevor 250 St&uuml;ck gedruckt sind: ob die ZSR-Nummer
+      aktuell aktiv ist, und ob die kantonale Berufsaus&uuml;bungsbewilligung g&uuml;ltig
+      ist. Eine gedruckte Nummer, die nicht tr&auml;gt, ist schlimmer als keine.</p>
+    </div>
+  </section>
+
+  <section class="noprint">
+    <h2>Druckdaten</h2>
+    <table class="specs">
+      <tr><td>Endformat</td><td>85 &times; 55 mm (CH/EU-Standard)</td></tr>
+      <tr><td>Mit Anschnitt</td><td>91 &times; 61 mm (3 mm umlaufend)</td></tr>
+      <tr><td>Sicherheitsabstand</td><td>4 mm zum Endformat</td></tr>
+      <tr><td>Farben</td><td>Graphit #191C21 &middot; Messing #8A6D24</td></tr>
+      <tr><td>Druckverfahren</td><td>2-Farben reicht &mdash; g&uuml;nstiger als CMYK</td></tr>
+      <tr><td>Papier</td><td>350 g/m&sup2;, matt oder ungestrichen. <b>Kein Glanz.</b></td></tr>
+      <tr><td>Auflage</td><td>250 Stück, CHF 50&ndash;150</td></tr>
+      <tr><td>PDF erzeugen</td><td>Diese Seite drucken &rarr; &laquo;Als PDF sichern&raquo;, Skalierung 100&nbsp;%, ohne Kopf- und Fusszeilen</td></tr>
+    </table>
+    <div class="note" style="margin-top:22px">
+      <p class="h">Die gestrichelte Linie in der Vorschau</p>
+      <p>Sie markiert das Endformat innerhalb des Anschnitts. Was ausserhalb liegt,
+      wird weggeschnitten. Im Druck-PDF erscheint sie nicht.</p>
+    </div>
+  </section>
+
+</div>
