@@ -6,8 +6,9 @@ Handelsregisterauszüge, Verlagsseiten, Fachpresse). Direktabrufe von
 Umgebung gesperrt — alles unten stammt aus indexierten Quellen und ist vor
 dem Termin zu verifizieren.
 
-**Anlass:** Persönliche Vorstellung durch die Schwiegermutter, die ihn seit
-Jahren kennt; Pflegebezug vor rund 30 Jahren. Termin abgemacht, Datum offen.
+**Anlass:** Persönliche Vorstellung durch die Schwiegermutter. Sie hat ihn
+vor rund 30 Jahren **als Krankenschwester privat zu Hause im Glarnerland
+gepflegt**. Kontakt seither durchgehend. Termin abgemacht, Datum offen.
 
 ---
 
@@ -89,6 +90,62 @@ Darin zwei Geschäftsfelder:
   zertifizierte Spitex ihrer Art**. Derselbe Bericht nennt wachsende
   Kritik an der Praxis wegen **steigender Kosten und fragwürdiger
   Qualität**.
+
+---
+
+## 1.5 Die Verbindung — und was sie bedeutet
+
+**Er war selbst Pflegeempfänger zu Hause.** Gepflegt von einer
+Krankenschwester, privat, im Glarnerland, vor rund 30 Jahren. Der Kontakt
+hält seither.
+
+### Die naheliegende, aber unbelegte Hypothese
+
+Seine Habilitation über das Schweizerische Pflegerecht erschien 2001/2002
+— wenige Jahre nach dieser Pflegesituation. Sein gesamtes Werk kreist
+seither um eine einzige Frage: **wer leistet Pflege, und wer bezahlt sie?**
+Handbuch, Zeitschrift, Pflegeschaden, Gutachtenwesen, Anstellung pflegender
+Angehöriger — das ist kein Portfolio, das ist ein Lebensthema.
+
+Ob die eigene Pflegeerfahrung der Auslöser war, ist **Vermutung und nicht
+belegt**. Im Gespräch nicht behaupten. Aber es erklärt, warum er auf
+Substanz reagiert und nicht auf Angebote: **Du triffst keinen
+Dienstleister, du triffst jemanden mit einer Mission.**
+
+### Die taktische Konsequenz
+
+Die Verbindung gibt eine Legitimität, die kein Pitch erzeugt. Du kommst
+nicht als Anbieter, sondern **aus derselben Welt**: Die Schwiegermutter war
+Krankenschwester, du bist Pflegefachmann mit zwei Diplomen. Er hat diese
+Pflege selbst erlebt.
+
+**Aber genau deshalb darf sie nicht instrumentalisiert werden.** Wenn die
+Pflegegeschichte als Türöffner dient und danach sofort ein Geschäfts­
+vorschlag kommt, entwertet das beides. Er ist seit 33 Jahren Anwalt — er
+erkennt das in Sekunden. Und die Beziehung gehört deiner Schwiegermutter,
+nicht dir; wer sie verbrennt, verbrennt ihre.
+
+**Nicht nachfragen zur damaligen Pflegesituation.** Wenn er davon spricht,
+zuhören. Sonst stehenlassen. Es war eine Erfahrung von Abhängigkeit.
+
+### Was das am Gesprächsaufbau ändert
+
+Erstes Treffen ist Beziehung, nicht Transaktion. Der Vorschlag kommt nicht
+in Minute fünf.
+
+| Teil | Inhalt |
+|---|---|
+| **1. Seine Seite** | Fragen zu seinem **aktuellen** Werk: Zeitschrift, Handbuch 2023, die Zertifizierung von Fridli-Spitex. Nicht zur Vergangenheit. |
+| **2. Deine Seite, kurz** | Drei Sätze. Beide Diplome, ZSR-Nummer seit rund 2014, die Schnittstelle Psychiatrie–Intensivpflege. |
+| **3. Die Beobachtung** | Die Qualitätsfrage bei der Angehörigenanstellung — **nicht als Kritik, sondern als Fachproblem, das dich interessiert**. |
+| **4. Nur wenn 3 aufgeht** | Ein Vorschlag: Supervision (S1) oder Publikation (S2). Sonst: zweites Treffen. |
+
+### Eine Warnung zur Recherche
+
+**Dieses Dossier ist für dich, nicht für das Gespräch.** Normal ist, dass
+man vorher die Website anschaut. Wer Handelsregisterdaten,
+Zeichnungsberechtigte und Gründungsdaten zitiert, wirkt wie ein Ermittler,
+nicht wie ein künftiger Partner. Wissen, nicht zeigen.
 
 ---
 
@@ -175,8 +232,9 @@ Wer als Komplementär kommt, bekommt eine Partnerschaft.
    Leute, die etwas von ihm wollen.
 2. **Die Marke nicht präsentieren.** CLAVE ist rechtlich ungeprüft, und
    ein Logo interessiert ihn null. Bring die Position, nicht die Gestaltung.
-3. **Die persönliche Verbindung nicht überstrapazieren.** Die
-   Schwiegermutter öffnet die Tür. Danach zählt ausschliesslich Substanz.
+3. **Die persönliche Verbindung nicht instrumentalisieren.** Sie öffnet die
+   Tür, danach zählt ausschliesslich Substanz. Keine Fragen zur damaligen
+   Pflegesituation. Und die Beziehung gehört deiner Schwiegermutter.
 4. **Nicht über Konkurrenz reden,** ohne vorher klargemacht zu haben, dass
    du komplementär bist.
 
@@ -192,7 +250,7 @@ Wer als Komplementär kommt, bekommt eine Partnerschaft.
 
 | | Was | Aufwand |
 |---|---|---|
-| 1 | Handbuch *Pflegerecht* (Dike 2023) kaufen. Nicht ganz lesen — Kapitel Haftungsrecht und Berufsrecht. Wer sein Buch kennt, wird anders behandelt. | CHF 128–148, 3 h |
+| 1 | Handbuch *Pflegerecht* (Dike 2023) kaufen. Kapitel Haftungsrecht und Berufsrecht — **und das Vorwort**. Dort steht oft, warum jemand ein Thema gewählt hat. Wenn die biografische Verbindung dort steht, weisst du es, ohne fragen zu müssen. | CHF 128–148, 3 h |
 | 2 | Die letzten zwei Ausgaben der Zeitschrift «Pflegerecht» durchsehen: woran arbeitet er gerade? | 1 h |
 | 3 | medinside-Bericht vom 07.09.2026 zur Zertifizierung und zur Qualitätskritik lesen | 20 min |
 | 4 | `lare.ch` und `care-solutions.ch` selbst aufrufen — aus dieser Umgebung gesperrt, alle Angaben oben verifizieren | 40 min |
