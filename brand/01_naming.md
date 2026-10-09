@@ -169,3 +169,72 @@ Schutzdauer 10 Jahre, verlängerbar. Die Angaben zur IGE-Gebühr weichen in
 den Quellen ab (CHF 450 Grundgebühr, CHF 350 mit E-Filing-Rabatt gegenüber
 älteren Angaben von CHF 550); vor Budgetfreigabe direkt beim IGE
 verifizieren. → Arbeitspaket AP-05.
+
+
+---
+
+# Runde 2 — CLAVE
+
+Entschieden 09.10.2026 nach strukturiertem Interview. Rechtlich ungeprüft.
+
+## Das Interview, das dahin führte
+
+| Frage | Antwort |
+|---|---|
+| Was passiert, wenn du kommst? | **Ich bleibe, wo andere abbrechen** |
+| Namensart | Deutsches Bildwort — später geöffnet auf «entscheide am Ergebnis» |
+| Wessen Ohr zuerst? | **Künftige Mitarbeitende** |
+| Quellen | Herkunft/Spanisch · klinische Fachsprache · Musik/Mythologie |
+| Wortfeld | **SCHIENE, KLAMMER, SPLINT** — Halt, der stützt und wieder abgenommen wird |
+| Rechtsform | **GmbH beschlossen** → Art. 945 OR entfällt, reiner Fantasiename möglich |
+| Wirkung im Stelleninserat | **«Hier werde ich fachlich ernst genommen»** |
+| Geschichte | **Der Rhythmus** (nicht der Schlussstein) |
+
+Der Name kam vom Inhaber, nicht aus meiner Generierung. Das ist der Grund,
+warum er trägt: er trifft alle vier Quellen gleichzeitig.
+
+## Warum CLAVE
+
+| Kriterium | Befund |
+|---|---|
+| «Ich bleibe, wo andere abbrechen» | Die Clave setzt nie aus — das zweitaktige Grundmuster, an dem sich alle Instrumente orientieren |
+| Wortfeld Schiene/Klammer/Splint | *clave* = **Schlussstein** des Bogens; etymologisch von *clavo*, **Nagel** — die Claves waren hölzerne Schiffsnägel |
+| Spanische Herkunft | eigene Sprache, nicht Dekoration |
+| Musik | Son Clave 3-2, Grundmuster von Rumba, Son, Mambo, Salsa |
+| Nebenbedeutungen | Schlüssel, Notenschlüssel, Code |
+| A1 Sekunde 1 | 5 Buchstaben, 2 Silben. Abzug: Schreibung nach Hören («mit C») |
+| A5 Schutz | im deutschen Sprachraum bedeutungslos → nicht beschreibend → schützbar |
+| A8 Namensraum | bisher sauber: keine CH-Gesundheitsfirma, keine Warnlisten, keine Liquidationen |
+
+**Schwäche, die bleibt:** Clave signalisiert Haltung und Zugehörigkeit, nicht
+direkt Fachlichkeit. Das gewählte Kriterium war Fachlichkeit. Die Zeile unter
+dem Namen muss sie tragen — wie auf der Visitenkarte die Diplomzeile.
+
+## Zeichen, Claim, Formsprache
+
+- **Bildmarke:** Son Clave 3-2 — fünf Schläge auf sechzehn Positionen, notiert.
+  Ab 40 px fällt das Raster weg, nur die fünf Schläge bleiben. Audiologo:
+  zwei Hölzer, fünf Schläge, nachklopfbar.
+- **Claim:** «Wir setzen nicht aus.» Trägt gegenüber Mitarbeitenden,
+  Zuweisern und Klienten gleichzeitig.
+- **Kategorie:** somatopsychiatrische Pflege zu Hause (`somatopsychiatrisch.ch`)
+- **Farbe:** Tinte #17110E · Schatten #231A16 · Kalk #EFE6DA ·
+  Palisander #B2563C · Vigilanz #5BA79C. Kein Tropen-Klischee.
+- **Schrift:** Zilla Slab (Titel, perkussive Serifen) · IBM Plex Sans/Mono.
+  Ersetzt Spectral, das für die saturnische Richtung gewählt war.
+
+## Offen — nichts wird gedruckt, bevor das steht
+
+| # | Prüfung | Status |
+|---|---|---|
+| 1 | Whois `clave.ch` — wer hält sie? | **Domain vergeben** (09.10.2026) |
+| 2 | Zefix «Clave» und «Claves», alle Kantone | offen |
+| 3 | Swissreg Kl. 44, 41, 42, 35 | offen |
+| 4 | **Claves Records**, CH-Klassiklabel seit 1968 (Thun → Prilly VD). Anderes Wort, andere Branche — aber Kl. 41 umfasst Bildung *und* Unterhaltung | dem Anwalt vorlegen |
+| 5 | `clave.swiss` beantragen — BAKOM, 20 Tage Publikationsfrist | **dringend, Vorlaufzeit** |
+| 6 | Anwaltliche Beurteilung Verwechslungsgefahr, CHF 1'200–3'000 | offen |
+| 7 | GmbH-Gründung — beschlossen, Termin offen | offen |
+
+**Die Visitenkarte bleibt auf dem eigenen Namen,** bis Prüfung durch und
+GmbH eingetragen. Genau diese Regel hat SATOR gestoppt, nachdem bereits ein
+vollständiges Fundament stand.

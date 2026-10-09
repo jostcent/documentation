@@ -1,0 +1,358 @@
+<title>Clave Markenkern</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<style>
+:root{
+  --ground:#17110E;
+  --raise:#231A16;
+  --ink:#EFE6DA;
+  --ink-2:#A2958A;
+  --ink-3:#6E635B;
+  --rule:#3A2E27;
+  --rule-soft:#2B211C;
+  --wood:#B2563C;
+  --wood-2:#C9765C;
+  --vigil:#5BA79C;
+
+  --f-disp:"Zilla Slab",Georgia,"Times New Roman",serif;
+  --f-body:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
+  --f-mono:"IBM Plex Mono","SF Mono",Consolas,monospace;
+
+  --s-1:12px; --s0:15px; --s1:19px; --s2:23px; --s3:29px; --s4:37px;
+  --gut:clamp(20px,4vw,44px);
+}
+@media (prefers-color-scheme:light){
+  :root:not([data-theme="dark"]){
+    --ground:#F2ECE4;
+    --raise:#FBF7F1;
+    --ink:#17110E;
+    --ink-2:#5E534B;
+    --ink-3:#8C8178;
+    --rule:#D6CCC1;
+    --rule-soft:#E4DBD1;
+    --wood:#9E4430;
+    --wood-2:#8A3A28;
+    --vigil:#2C6660;
+  }
+}
+:root[data-theme="light"]{
+  --ground:#F2ECE4;
+  --raise:#FBF7F1;
+  --ink:#17110E;
+  --ink-2:#5E534B;
+  --ink-3:#8C8178;
+  --rule:#D6CCC1;
+  --rule-soft:#E4DBD1;
+  --wood:#9E4430;
+  --wood-2:#8A3A28;
+  --vigil:#2C6660;
+}
+
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--f-body);
+  font-size:var(--s0);line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding:0 var(--gut)}
+h2,h3{font-family:var(--f-disp);font-weight:400;margin:0;text-wrap:balance}
+h2{font-size:var(--s3);line-height:1.15}
+h3{font-size:var(--s1);line-height:1.3}
+p{margin:0;max-width:64ch}
+.lede{font-size:var(--s1);line-height:1.55;color:var(--ink-2);max-width:54ch}
+.tag{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-3)}
+strong{font-weight:600}
+em{font-style:normal;color:var(--wood)}
+section{border-top:1px solid var(--rule);padding:clamp(36px,6vw,60px) 0}
+.sec-head{display:flex;gap:18px;align-items:baseline;margin-bottom:26px;flex-wrap:wrap}
+.sec-num{font-family:var(--f-mono);font-size:var(--s-1);color:var(--wood);letter-spacing:.1em}
+.stack{display:flex;flex-direction:column;gap:18px}
+
+/* masthead */
+.mast{padding:clamp(40px,7vw,72px) 0 clamp(32px,5vw,50px)}
+.mast-top{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
+  font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);border-bottom:1px solid var(--rule);padding-bottom:12px;
+  margin-bottom:clamp(32px,5vw,50px)}
+.wordmark{font-family:var(--f-disp);font-weight:500;font-size:clamp(50px,11vw,96px);
+  letter-spacing:.06em;line-height:1;margin:0 0 6px}
+.claim{font-family:var(--f-disp);font-weight:300;font-size:clamp(23px,4vw,37px);
+  line-height:1.2;margin-top:clamp(22px,3.5vw,32px)}
+.sub{font-family:var(--f-mono);font-size:var(--s-1);letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-2);margin-top:14px}
+
+/* mark */
+.mk{color:var(--wood);display:block;width:100%;height:auto}
+.mk .grid{fill:var(--ink-3);opacity:.5}
+.mk .bar{fill:currentColor}
+.mk .div{fill:var(--ink-3);opacity:.35}
+.markbox{background:var(--raise);border:1px solid var(--rule-soft);
+  padding:clamp(22px,4vw,34px)}
+.sizes{display:flex;align-items:center;gap:clamp(20px,4vw,42px);flex-wrap:wrap;
+  margin-top:26px;padding-top:24px;border-top:1px solid var(--rule-soft)}
+.size-item{display:flex;flex-direction:column;align-items:flex-start;gap:9px}
+
+/* tables */
+.tblwrap{overflow-x:auto;border:1px solid var(--rule-soft)}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:var(--s-1)}
+th,td{text-align:left;padding:12px 15px;border-bottom:1px solid var(--rule-soft);
+  vertical-align:top}
+thead th{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3);background:var(--raise)}
+tbody tr:last-child td{border-bottom:0}
+td:first-child{color:var(--ink-2);width:34%}
+td strong{color:var(--wood);font-weight:600}
+
+/* swatches */
+.sw-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(124px,1fr));gap:1px;
+  background:var(--rule-soft);border:1px solid var(--rule-soft)}
+.sw{background:var(--raise);padding:14px}
+.sw .chip{height:48px;border:1px solid rgba(128,128,128,.25);margin-bottom:9px}
+.sw .nm{font-size:var(--s-1);font-weight:500}
+.sw .hx{font-family:var(--f-mono);font-size:11px;color:var(--ink-3)}
+
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:clamp(18px,3.5vw,34px);align-items:start}
+.note{border-left:3px solid var(--wood);padding:14px 0 14px 18px}
+.note .h{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--wood);margin-bottom:7px}
+.note p{font-size:var(--s-1);color:var(--ink-2)}
+.note p + p{margin-top:9px}
+.note b{color:var(--ink);font-weight:600}
+.open{display:flex;flex-direction:column;gap:12px}
+.open div{display:flex;gap:14px;align-items:baseline;font-size:var(--s-1)}
+.open span{font-family:var(--f-mono);font-size:11px;color:var(--wood);
+  letter-spacing:.08em;min-width:26px}
+footer{border-top:1px solid var(--rule);padding:26px 0 44px;color:var(--ink-3)}
+:focus-visible{outline:2px solid var(--wood);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <!-- Son Clave 3-2: Schläge auf den 16teln 1, 4, 7, 11, 13 -->
+    <symbol id="clave" viewBox="0 0 330 72">
+      <rect class="div" x="162" y="8" width="1.4" height="56"></rect>
+      <g class="grid">
+        <rect x="28.3" y="34" width="3.4" height="4" rx="1.7"></rect>
+        <rect x="48.3" y="34" width="3.4" height="4" rx="1.7"></rect>
+        <rect x="88.3" y="34" width="3.4" height="4" rx="1.7"></rect>
+        <rect x="108.3" y="34" width="3.4" height="4" rx="1.7"></rect>
+        <rect x="148.3" y="34" width="3.4" height="4" rx="1.7"></rect>
+        <rect x="168.3" y="34" width="3.4" height="4" rx="1.7"></rect>
+        <rect x="188.3" y="34" width="3.4" height="4" rx="1.7"></rect>
+        <rect x="228.3" y="34" width="3.4" height="4" rx="1.7"></rect>
+        <rect x="268.3" y="34" width="3.4" height="4" rx="1.7"></rect>
+        <rect x="288.3" y="34" width="3.4" height="4" rx="1.7"></rect>
+        <rect x="308.3" y="34" width="3.4" height="4" rx="1.7"></rect>
+      </g>
+      <g class="bar">
+        <rect x="6" y="16" width="8" height="40" rx="4"></rect>
+        <rect x="66" y="16" width="8" height="40" rx="4"></rect>
+        <rect x="126" y="16" width="8" height="40" rx="4"></rect>
+        <rect x="206" y="16" width="8" height="40" rx="4"></rect>
+        <rect x="246" y="16" width="8" height="40" rx="4"></rect>
+      </g>
+    </symbol>
+    <!-- Mikrovariante: nur die fünf Schläge, breiter -->
+    <symbol id="clave-micro" viewBox="0 0 330 72">
+      <g class="bar">
+        <rect x="4" y="10" width="16" height="52" rx="8"></rect>
+        <rect x="64" y="10" width="16" height="52" rx="8"></rect>
+        <rect x="124" y="10" width="16" height="52" rx="8"></rect>
+        <rect x="204" y="10" width="16" height="52" rx="8"></rect>
+        <rect x="244" y="10" width="16" height="52" rx="8"></rect>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="wrap">
+
+  <header class="mast">
+    <div class="mast-top">
+      <span>Markenkern &middot; Entwurf v1</span>
+      <span>Entscheid 09.10.2026</span>
+      <span>rechtlich ungepr&uuml;ft</span>
+    </div>
+
+    <svg class="mk" viewBox="0 0 330 72" style="max-width:300px;margin-bottom:26px"
+         role="img" aria-label="Bildmarke: Son-Clave 3-2, f&uuml;nf Schl&auml;ge auf sechzehn Positionen">
+      <use href="#clave"></use>
+    </svg>
+
+    <p class="wordmark">CLAVE</p>
+    <p class="claim">Wir setzen <em>nicht aus.</em></p>
+    <p class="sub">Somatopsychiatrische Pflege zu Hause</p>
+  </header>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">01</span><h2>Warum dieses Wort</h2></div>
+    <p class="lede" style="margin-bottom:24px">Vier Entscheide aus dem Interview.
+    Clave trifft alle vier gleichzeitig &mdash; das ist kein Zufall, sondern der Grund,
+    warum es von dir kam und nicht von mir.</p>
+
+    <div class="tblwrap">
+      <table>
+        <thead><tr><th>Deine Antwort</th><th>Was Clave dazu ist</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>&laquo;Ich bleibe, wo andere abbrechen&raquo;</td>
+            <td><strong>Die Clave setzt nie aus.</strong> Sie ist das zweitaktige
+            Grundmuster, an dem sich alle anderen Instrumente orientieren. H&ouml;rt sie
+            auf, f&auml;llt die Musik auseinander.</td>
+          </tr>
+          <tr>
+            <td>Bildfeld Schiene, Klammer, Splint</td>
+            <td><em>Clave</em> heisst <strong>Schlussstein</strong> &mdash; der keilf&ouml;rmige
+            Stein in der Mitte des Bogens, der alle anderen zusammenh&auml;lt. Und
+            etymologisch von <em>clavo</em>, <strong>Nagel</strong>: die Claves waren
+            urspr&uuml;nglich h&ouml;lzerne Schiffsn&auml;gel. Du landest &uuml;ber Umwege genau in
+            deinem eigenen Wortfeld.</td>
+          </tr>
+          <tr>
+            <td>Spanische Herkunft</td>
+            <td>Deine Sprache. Nicht Dekoration, sondern Biografie &mdash; und das
+            Einzige an dieser Marke, das kein Mitbewerber kopieren kann.</td>
+          </tr>
+          <tr>
+            <td>Musik als Quelle</td>
+            <td>Son Clave <strong>3&#8209;2</strong>: drei Schl&auml;ge im ersten Takt, zwei im
+            zweiten. Das Muster tr&auml;gt Rumba, Son, Mambo, Salsa. <em>Clave</em> heisst
+            ausserdem Schl&uuml;ssel und Notenschl&uuml;ssel.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note" style="margin-top:26px">
+      <p class="h">Was es als Arbeitgebermarke leistet</p>
+      <p>Du hast k&uuml;nftige Mitarbeitende als erstes Ohr gew&auml;hlt. <b>In einer
+      Clave-Band ist die Clave nicht der Solist</b> &mdash; sie ist das, woran sich alle
+      ausrichten. F&uuml;r Pflegende, die genug von Hierarchie und Chaos haben, ist das
+      ein pr&auml;zises Versprechen: kein Chef im Vordergrund, sondern ein gemeinsames
+      Muster, das tr&auml;gt.</p>
+      <p>Und der Claim gilt in alle drei Richtungen gleichzeitig &mdash; gegen&uuml;ber
+      Mitarbeitenden, Zuweisern und Klienten: <b>Wir setzen nicht aus.</b></p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">02</span><h2>Das Zeichen</h2></div>
+    <div class="stack">
+      <p class="lede">F&uuml;nf Schl&auml;ge auf sechzehn Positionen. Die Marke ist keine
+      Illustration des Namens &mdash; sie <em>ist</em> der Name, notiert.</p>
+
+      <div class="markbox">
+        <svg class="mk" viewBox="0 0 330 72" role="img"
+             aria-label="Son-Clave 3-2 auf dem 16tel-Raster">
+          <use href="#clave"></use>
+        </svg>
+        <p class="tag" style="margin-top:18px">Son Clave 3&#8209;2 &middot; Schl&auml;ge auf
+        1 &middot; 4 &middot; 7 &nbsp;&#124;&nbsp; 11 &middot; 13</p>
+
+        <div class="sizes">
+          <div class="size-item">
+            <svg class="mk" viewBox="0 0 330 72" style="width:180px" role="img" aria-label="Zeichen bei 180 Pixel Breite"><use href="#clave"></use></svg>
+            <span class="tag">180 px</span>
+          </div>
+          <div class="size-item">
+            <svg class="mk" viewBox="0 0 330 72" style="width:92px" role="img" aria-label="Zeichen bei 92 Pixel Breite"><use href="#clave"></use></svg>
+            <span class="tag">92 px</span>
+          </div>
+          <div class="size-item">
+            <svg class="mk" viewBox="0 0 330 72" style="width:40px" role="img" aria-label="Mikrovariante bei 40 Pixel Breite"><use href="#clave-micro"></use></svg>
+            <span class="tag">40 px</span>
+          </div>
+          <div class="size-item">
+            <svg class="mk" viewBox="0 0 330 72" style="width:18px" role="img" aria-label="Mikrovariante bei 18 Pixel Breite, Favicon"><use href="#clave-micro"></use></svg>
+            <span class="tag">18 px</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="two">
+        <div class="stack" style="gap:10px">
+          <h3>Warum es in Sekunden tr&auml;gt</h3>
+          <p style="font-size:var(--s-1);color:var(--ink-2)">Die Gruppierung
+          <strong>3&#8209;2</strong> ist asymmetrisch, und Asymmetrie merkt sich das Auge.
+          Ab 40&nbsp;px f&auml;llt das Raster weg und nur die f&uuml;nf Schl&auml;ge bleiben &mdash;
+          das ist das Favicon. Im Schweizer Gesundheitswesen, voller Kreuze, Herzen
+          und Pulslinien, ist ein Notationsmuster unbesetzt.</p>
+        </div>
+        <div class="stack" style="gap:10px">
+          <h3>Was es kann, was ein Logo nicht kann</h3>
+          <p style="font-size:var(--s-1);color:var(--ink-2)">Es ist ein Muster, also
+          teilbar: f&uuml;nf Schl&auml;ge als Aufz&auml;hlungszeichen, als Trennlinie, als Raster
+          f&uuml;r Layouts, als Rhythmus einer Animation. Und es ist h&ouml;rbar &mdash; zwei
+          H&ouml;lzer, f&uuml;nf Schl&auml;ge, das ist ein <strong>Audiologo</strong>, das jeder
+          nachklopfen kann.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">03</span><h2>Farbe und Schrift</h2></div>
+    <div class="stack">
+      <p class="lede">Dunkel gegr&uuml;ndet, warm statt grau. Die Claves sind Hartholz &mdash;
+      die Akzentfarbe kommt vom Holz, nicht aus einer Palette.</p>
+
+      <div class="sw-row">
+        <div class="sw"><div class="chip" style="background:#17110E"></div><div class="nm">Tinte</div><div class="hx">#17110E</div></div>
+        <div class="sw"><div class="chip" style="background:#231A16"></div><div class="nm">Schatten</div><div class="hx">#231A16</div></div>
+        <div class="sw"><div class="chip" style="background:#EFE6DA"></div><div class="nm">Kalk</div><div class="hx">#EFE6DA</div></div>
+        <div class="sw"><div class="chip" style="background:#B2563C"></div><div class="nm">Palisander</div><div class="hx">#B2563C</div></div>
+        <div class="sw"><div class="chip" style="background:#5BA79C"></div><div class="nm">Vigilanz</div><div class="hx">#5BA79C</div></div>
+      </div>
+
+      <p style="font-size:var(--s-1);color:var(--ink-2)">Palisander ist Akzent, nie
+      Fl&auml;che. Vigilanz bleibt rein funktional &mdash; Daten, Skalen, Zust&auml;nde, nie
+      Dekoration. <strong>Kein Tropen-Klischee:</strong> keine Palmen, kein T&uuml;rkis,
+      kein Gelb. Die kubanische Wurzel zeigt sich im Rhythmus, nicht in der Farbe.</p>
+
+      <div class="two" style="margin-top:8px">
+        <div class="stack" style="gap:8px">
+          <span class="tag">Titel &middot; Zilla Slab</span>
+          <p style="font-family:var(--f-disp);font-size:var(--s3);line-height:1.1">Wir setzen nicht aus</p>
+          <p style="font-size:var(--s-1);color:var(--ink-2)">SIL OFL, frei. Eine
+          Slab-Serif hat perkussive Serifen &mdash; die Schrift schl&auml;gt mit. Ersetzt
+          Spectral, das f&uuml;r die saturnische Richtung gew&auml;hlt war.</p>
+        </div>
+        <div class="stack" style="gap:8px">
+          <span class="tag">Text &middot; IBM Plex Sans &amp; Mono</span>
+          <p style="font-family:var(--f-body);font-size:var(--s2);line-height:1.2">Handlungssicherheit</p>
+          <p style="font-size:var(--s-1);color:var(--ink-2)">Unver&auml;ndert aus dem
+          bisherigen System. Institutionell, technisch, im Schweizer
+          Gesundheitsmarkt unverbraucht.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">04</span><h2>Was noch offen ist</h2></div>
+    <div class="note" style="margin-bottom:24px">
+      <p class="h">Nichts wird gedruckt, bevor das hier steht</p>
+      <p>Genau diese Regel hat SATOR gestoppt, nachdem bereits ein vollst&auml;ndiges
+      Fundament gebaut war. <b>Die Visitenkarte bleibt vorerst auf deinem eigenen
+      Namen</b> &mdash; Clave kommt darauf, wenn die Pr&uuml;fung durch ist und die GmbH
+      existiert, nicht vorher.</p>
+    </div>
+    <div class="open">
+      <div><span>01</span><div><b>Whois <span style="font-family:var(--f-mono)">clave.ch</span>:</b> wer h&auml;lt sie, seit wann, in Gebrauch? Eine vergebene Domain ist nur eine Adresse &mdash; eine <em>Schweizer Firma</em> namens Clave w&auml;re das Problem.</div></div>
+      <div><span>02</span><div><b>Zefix:</b> &laquo;Clave&raquo; und &laquo;Claves&raquo; als Teilwort, alle Kantone</div></div>
+      <div><span>03</span><div><b>Swissreg:</b> Klassen 44, 41, 42, 35 &mdash; identisch und &auml;hnlich</div></div>
+      <div><span>04</span><div><b>Bekannte Kollision:</b> Claves Records, Schweizer Klassiklabel seit 1968 (Thun, heute Prilly&nbsp;VD). Anderes Wort, andere Branche &mdash; aber Klasse&nbsp;41 umfasst Bildung <em>und</em> Unterhaltung. Dem Anwalt vorlegen, nicht wegwischen.</div></div>
+      <div><span>04</span><div><b>Domain:</b> <span style="font-family:var(--f-mono)">clave.ch</span> ist <b>vergeben</b> (Stand 09.10.2026). Prim&auml;radresse wird <span style="font-family:var(--f-mono)">clave.swiss</span> &mdash; BAKOM-Antrag, danach 20 Tage Publikationsfrist, rund CHF&nbsp;120 im Jahr. Seit 24.04.2024 auch f&uuml;r nat&uuml;rliche Personen mit Schweizer Wohnsitz offen. <b>Fr&uuml;h beantragen.</b></div></div>
+      <div><span>06</span><div><b>Anwaltliche Beurteilung</b> der Verwechslungsgefahr, CHF&nbsp;1'200&ndash;3'000</div></div>
+      <div><span>07</span><div><b>GmbH-Gr&uuml;ndung</b> &mdash; beschlossen, Termin offen. Erst damit ist ein reiner Fantasiename als Firma m&ouml;glich (Art.&nbsp;945&nbsp;OR)</div></div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="tag">Entwurf v1 &middot; 09.10.2026 &middot; keine gepr&uuml;fte Rechtsauskunft &middot;
+    Marken-, Firmen- und Domainverf&uuml;gbarkeit vor jeder Festlegung formal pr&uuml;fen</p>
+  </footer>
+
+</div>

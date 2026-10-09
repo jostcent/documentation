@@ -8,7 +8,8 @@ Kompetenzkontinuums **Psychiatrie – Pflege – Intensivpflege**.
 | Datei | Inhalt | Status |
 |---|---|---|
 | `00_strategie.md` | Positionierung, USP, Markenarchitektur, Zielgruppen, Risiken | Entwurf v1 |
-| `01_naming.md` | Name SATOR gesetzt, Bewertungsmatrix, Prüfpfad | v2 |
+| `01_naming.md` | **Name CLAVE** (Runde 2), Interview, Prüfpfad | v3 |
+| `clave_markenkern.html` | Markenkern: Zeichen, Claim, Farbe, Schrift | neu |
 | `02_visuelle_identitaet.md` | Bildmarke, Farbe, Typografie, Raster | Entwurf v1 |
 | `03_verbale_identitaet.md` | Tonalität, Claims, Sprachregeln | Entwurf v1 |
 | `04_timeline.md` | Drei Spuren bis 31.03.2027, operative Phase Apr–Aug 2027 | v3 |
