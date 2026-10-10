@@ -76,7 +76,31 @@ Formulierungsmuster:
 > Das Werkzeug schlägt vor. Die Fachperson entscheidet. Die Daten
 > bleiben in der Schweiz.
 
-## 7. Was nie gesagt wird
+## 7. Grundregel: Die Marke definiert sich nicht gegen jemanden
+
+Festgehalten am 10.10.2026, nach dem Verwerfen von `fuero`.
+
+Kein Name, kein Claim und kein Text baut die eigene Position auf der
+Abwertung einer anderen Gruppe auf. Weder einer Bevölkerungsgruppe noch
+der Berufskonkurrenz.
+
+Zwei Kandidaten sind an genau dieser Regel gescheitert:
+
+| Kandidat | Wogegen er sich definiert |
+|---|---|
+| **fuero** | Ein Recht, das die einen bekommen, weil die anderen vertrieben wurden. Die Reconquista-Lesart stellt die Araber als Verdrängte dar — eine Erzählung, die dieses Unternehmen nicht führt. |
+| **Careforreal** | «Wirkliche» Pflege, also implizit: die Kollegen pflegen nicht wirklich. Besonders schädlich für eine Arbeitgebermarke — die Bewerberin kommt von einer dieser Organisationen. |
+
+Die Regel ist nicht Taktik, sondern Konsequenz aus dem Kern: Der
+Solidarmechanismus in `00_strategie.md` Abschnitt 5 verteilt Zugang um,
+statt ihn zu verteidigen. Ein Name, der ausgrenzt, widerspricht dem
+Geschäftsmodell, nicht nur dem Geschmack.
+
+**Prüffrage für jeden künftigen Namen und Claim:**
+Gegen wen ist dieser Satz gerichtet? Wenn die Antwort nicht «gegen
+niemanden» lautet, fällt er.
+
+## 8. Was nie gesagt wird
 
 - Kein Versprechen klinischer Ergebnisse ohne Studie.
 - Keine Suggestion, die Marke verleihe geschützte Titel.

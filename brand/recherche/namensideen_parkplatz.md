@@ -46,5 +46,15 @@ politisch kippt, verfehlt seinen einzigen Zweck.
 weiteren Prüfung einen **Konnotations-Check durch Muttersprachler**
 (Familie). Gilt auch für `amparo` und `curador`.
 
+### Der eigentliche Grund für das Verwerfen
+
+Nicht Optik, sondern Haltung. In der Reconquista-Lesart kommen die Araber
+schlecht weg — eine Erzählung, die dieses Unternehmen nicht führt.
+
+Daraus die Grundregel in `03_verbale_identitaet.md` Abschnitt 7:
+**Die Marke definiert sich nicht gegen jemanden.** Daran scheitern `fuero`
+und `Careforreal` aus demselben Grund — beide bauen die eigene Position
+auf der Abwertung einer anderen Gruppe auf.
+
 Diese Prüfung kann ich nicht leisten — Wörterbücher und Websuche zeigen
 Bedeutung, nicht Resonanz.
