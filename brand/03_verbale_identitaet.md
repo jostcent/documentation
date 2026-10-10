@@ -106,7 +106,50 @@ Geschäftsmodell, nicht nur dem Geschmack.
 Gegen wen ist dieser Satz gerichtet? Wenn die Antwort nicht «gegen
 niemanden» lautet, fällt er.
 
-## 8. Kein falscher Trost
+## 8. Wie die Herkunft der Clave erzählt wird
+
+Verbindlich. Gilt für Website, Interviews, Onboarding, Offerten.
+
+### Die Fassung, die verwendet wird
+
+> Die Clave kommt aus der afrokubanischen Musik. Sie ist ein
+> Zweitaktmuster, an dem sich alle anderen Instrumente ausrichten —
+> entwickelt in den Hafenstädten Kubas von Menschen, die unter Zwang
+> lebten, und bis heute verbindlich. Wenn die Clave aussetzt, fällt die
+> Musik auseinander.
+
+### Warum genau so
+
+Die Clave ist **kein natürlicher Rhythmus, sondern ein kodifiziertes
+System**: sechzehn Pulse, fünf Schläge, verbindlich in 3-2 oder 2-3. Wer
+gegen die Clave spielt, spielt falsch.
+
+Sie entstand **urban und institutionell** — in Havanna und Matanzas im
+19. Jahrhundert, aus der Begegnung von Yoruba-, Efik-, spanischen und
+kreolischen Traditionen, in Häfen, Werften und den *cabildos de nación*,
+den afrokubanischen Selbsthilfegesellschaften. Die Claves selbst sollen
+von Schiffsbaunägeln der Hafenwerften abstammen.
+
+Das ist die stärkere Geschichte: ein unter Unterdrückung erarbeitetes
+Präzisionssystem, an dem sich alle ausrichten. Nicht Instinkt, sondern
+Leistung — und damit anschlussfähig an einen Qualitätsanspruch in der
+Pflege.
+
+### Was nie gesagt wird
+
+- **«Naturvolk»** — Begriff der kolonialen Völkerkunde des
+  19. Jahrhunderts, der die Menschheit in Natur- und Kulturvölker teilt.
+  Aus der Wissenschaft aus genau diesem Grund verschwunden.
+- **Angeborene Rhythmusbegabung** schwarzer Menschen. Rassistischer Topos,
+  auch und gerade als Lob gemeint.
+- «Rhythmus im Blut», «ursprünglich», «archaisch», «Stammes-».
+
+Das ist keine Geschmacksfrage, sondern Risikomanagement: Markensprache
+taucht irgendwann irgendwo auf. Für eine Arbeitgebermarke, die Pflegende
+gewinnen soll — von denen viele eigene Migrationsgeschichte haben —
+wäre diese Sprache direkt schädigend.
+
+## 9. Kein falscher Trost
 
 Die Verweigerung falschen Trostes ist in der psychiatrischen Pflege keine
 Attitüde, sondern Haltung. Was nicht gesagt wird, weil es nicht stimmt:
@@ -119,7 +162,7 @@ Der Claim «Wir setzen nicht aus» ist deshalb richtig gebaut: Er ist eine
 **Feststellung über das eigene Verhalten**, kein Versprechen über den
 Ausgang.
 
-## 9. Was nie gesagt wird
+## 10. Was nie gesagt wird
 
 - Kein Versprechen klinischer Ergebnisse ohne Studie.
 - Keine Suggestion, die Marke verleihe geschützte Titel.
