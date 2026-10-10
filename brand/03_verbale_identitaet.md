@@ -89,7 +89,13 @@ Zwei Kandidaten sind an genau dieser Regel gescheitert:
 | Kandidat | Wogegen er sich definiert |
 |---|---|
 | **fuero** | Ein Recht, das die einen bekommen, weil die anderen vertrieben wurden. Die Reconquista-Lesart stellt die Araber als Verdrängte dar — eine Erzählung, die dieses Unternehmen nicht führt. |
-| **Careforreal** | «Wirkliche» Pflege, also implizit: die Kollegen pflegen nicht wirklich. Besonders schädlich für eine Arbeitgebermarke — die Bewerberin kommt von einer dieser Organisationen. |
+| **Careforreal** | «Wirkliche» Pflege, also implizit: die Kollegen pflegen nicht wirklich. Der Hip-Hop-Ursprung («keeping it real») rettet den Namen nicht — er bestätigt den Einwand, denn der Begriff funktioniert rhetorisch nur im Gegensatz zum Sellout. Besonders schädlich für eine Arbeitgebermarke: die Bewerberin kommt von einer dieser Organisationen. |
+
+**Wo die Haltung stattdessen hingehört:** Der Impuls hinter «keeping it
+real» — Loyalität zur Herkunft, sich nicht kaufen lassen — ist richtig und
+steht bereits in der Marke. Er heisst dort Solidarmechanismus. Ein Name
+kann Echtheit behaupten; ein offengelegter Preismechanismus beweist sie
+jährlich mit Zahlen. Das ist der stärkere Ort.
 
 Die Regel ist nicht Taktik, sondern Konsequenz aus dem Kern: Der
 Solidarmechanismus in `00_strategie.md` Abschnitt 5 verteilt Zugang um,

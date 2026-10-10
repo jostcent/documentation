@@ -36,7 +36,7 @@ aber auch nicht neutral. Bekannt und bewusst getragen.
 
 | Datum | Kandidat | Herkunft / Idee | Erste Einordnung |
 |---|---|---|---|
-| 10.10.2026 | **Careforreal** | englisch, «care for real» | Ungeprüft. Erste Einwände: «care» ist das überfüllteste Wortfeld im Sektor; «for real» ist Umgangssprache; der Name ist ein Versprechen mit implizitem Seitenhieb gegen Berufskollegen — heikel für eine Arbeitgebermarke; elf Buchstaben, drei zusammengeschriebene Wörter. |
+| 10.10.2026 | **Careforreal** | «for real» / «keeping it real» aus der **Hip-Hop-Bewegung**: nicht verkaufen, nicht verleugnen, wo du herkommst | Ungeprüft. **Korrektur:** Der Einwand «Umgangssprache» war falsch — der Begriff ist ein kodifizierter Wert und passt inhaltlich zum Solidarmechanismus. Es bleiben drei Einwände: (1) Die Zielgruppe trägt die Referenz nicht — zuweisende Ärztinnen lesen englisches Marketing, nicht Hip-Hop-Ethik. (2) «For real» ist **konstitutiv ein Gegenbegriff** — real nur im Gegensatz zu fake. Scheitert damit an X2. (3) «Care» ist das überfüllteste Wortfeld im Sektor. |
 | 10.10.2026 | **amparo** | spanisch: Schutz, Obhut — **und** juristisch Rechtsschutz (*recurso de amparo*) | Doppelter Boden aus Fürsorge und Recht. Steht aber quer zur Interview-Antwort «Fachlichkeit vor Fürsorge». |
 | 10.10.2026 | **curador** | spanisch: juristischer Beistand — Wurzel *curar*, heilen | Recht und Pflege in einer Wurzel. Im Schweizer Kontext nah an Beistandschaft und KESB. |
 | 10.10.2026 | ~~**fuero**~~ | spanisch: Sonderrecht, Gerichtsstand; *en mi fuero interno* = im Innersten | **Verworfen 10.10.2026.** Siehe unten. |
