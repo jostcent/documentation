@@ -11,6 +11,25 @@ Tritt dieser Fall ein, wird der Parkplatz **auf einmal** gescreent und
 bewertet. Das ist effizienter und ehrlicher als jede Einzelprüfung
 zwischendurch.
 
+## Harte Ausschlusskriterien
+
+Gelten für jeden künftigen Kandidaten, zusätzlich zu A1–A8 in `01_naming.md`.
+
+| # | Kriterium | Festgelegt |
+|---|---|---|
+| X1 | **Nichts Christliches.** Keine christliche Symbolik, Begriffe oder Bezüge. | 10.10.2026 |
+| X2 | **Nichts, das sich gegen eine Gruppe definiert.** Siehe `03_verbale_identitaet.md` Abschnitt 7. | 10.10.2026 |
+| X3 | **Spanische Kandidaten:** Konnotations-Check durch Muttersprachler vor jeder weiteren Prüfung. | 10.10.2026 |
+
+X1 bestätigt rückwirkend das Fallen des SATOR-Siegels: Das SATOR-Quadrat
+wurde über Jahrhunderte als christlicher Schutzspruch verwendet.
+
+**Offenlegung zu CLAVE:** Der Schlussstein ist Architektur, nicht
+Religion. Das Rhythmusmuster stammt jedoch aus afrokubanischer Musik,
+deren Wurzeln unter anderem in der **Abakuá**-Tradition liegen — einer
+afrokubanischen Bruderschaft mit religiösem Charakter. Nicht christlich,
+aber auch nicht neutral. Bekannt und bewusst getragen.
+
 ---
 
 ## Einträge

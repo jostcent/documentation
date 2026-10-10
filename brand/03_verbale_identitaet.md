@@ -100,7 +100,20 @@ Geschäftsmodell, nicht nur dem Geschmack.
 Gegen wen ist dieser Satz gerichtet? Wenn die Antwort nicht «gegen
 niemanden» lautet, fällt er.
 
-## 8. Was nie gesagt wird
+## 8. Kein falscher Trost
+
+Die Verweigerung falschen Trostes ist in der psychiatrischen Pflege keine
+Attitüde, sondern Haltung. Was nicht gesagt wird, weil es nicht stimmt:
+
+- Kein Versprechen auf Gelingen. Verläufe kippen, Menschen sterben.
+- Keine Ermutigungsrhetorik gegenüber Klienten oder Angehörigen.
+- Keine Beteuerung von Echtheit — wer «wirklich» sagt, hat schon verloren.
+
+Der Claim «Wir setzen nicht aus» ist deshalb richtig gebaut: Er ist eine
+**Feststellung über das eigene Verhalten**, kein Versprechen über den
+Ausgang.
+
+## 9. Was nie gesagt wird
 
 - Kein Versprechen klinischer Ergebnisse ohne Studie.
 - Keine Suggestion, die Marke verleihe geschützte Titel.
